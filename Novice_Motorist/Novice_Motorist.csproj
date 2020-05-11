@@ -46,24 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form_Main.cs">
+    <Compile Include="Main\Form_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Main.Designer.cs">
+    <Compile Include="Main\Form_Main.Designer.cs">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Guid_Form_Main.cs">
+    <Compile Include="Guid\Guid_Form_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Guid_Form_Main.Designer.cs">
+    <Compile Include="Guid\Guid_Form_Main.Designer.cs">
       <DependentUpon>Guid_Form_Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form_Main.resx">
+    <EmbeddedResource Include="Main\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Guid_Form_Main.resx">
+    <EmbeddedResource Include="Guid\Guid_Form_Main.resx">
       <DependentUpon>Guid_Form_Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -93,6 +93,12 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Image\1x\Button_Hide.png" />
+    <None Include="Image\1x\Button_Exite.png" />
+    <None Include="Image\1x\Button_Exite_Move.png" />
+    <None Include="Image\1x\Button_Hide_Move.png" />
+    <None Include="Image\1x\Button_Back.png" />
+    <None Include="Image\1x\Button_Back_Move.png" />
     <Content Include="Image\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

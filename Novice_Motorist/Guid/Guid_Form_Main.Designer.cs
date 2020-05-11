@@ -28,18 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Guid_Form_Main));
             this.Exite_Application = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).BeginInit();
             this.SuspendLayout();
             // 
             // Exite_Application
             // 
-            this.Exite_Application.Image = ((System.Drawing.Image)(resources.GetObject("Exite_Application.Image")));
+            this.Exite_Application.Image = global::Novice_Motorist.Properties.Resources.Button_Back;
             this.Exite_Application.InitialImage = null;
-            this.Exite_Application.Location = new System.Drawing.Point(724, 12);
+            this.Exite_Application.Location = new System.Drawing.Point(763, 12);
             this.Exite_Application.Name = "Exite_Application";
-            this.Exite_Application.Size = new System.Drawing.Size(64, 64);
+            this.Exite_Application.Size = new System.Drawing.Size(25, 25);
             this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Exite_Application.TabIndex = 4;
             this.Exite_Application.TabStop = false;
