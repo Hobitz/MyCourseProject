@@ -19,9 +19,11 @@ namespace Novice_Motorist
 
         private void Guide_Button_Click(object sender, EventArgs e)
         {
-            Form fm = new Guid_Form_Main();
-            fm.Left = this.Left; 
-            fm.Top = this.Top; 
+            Form fm = new Guid_Form_Main
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
             fm.Show(); 
             this.Hide(); 
 
@@ -30,16 +32,6 @@ namespace Novice_Motorist
         private void Exite_Application_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void Express_Button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-                this.WindowState = FormWindowState.Minimized;
         }
 
         private void Form_Main_MouseDown(object sender, MouseEventArgs e)
@@ -57,6 +49,21 @@ namespace Novice_Motorist
         private void Exite_Application_MouseLeave(object sender, EventArgs e)
         {
             Exite_Application.Image = Properties.Resources.Button_Exite;
+        }
+
+        private void Button_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
+        }
+
+        private void Button_Hide_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide;
         }
     }
 }

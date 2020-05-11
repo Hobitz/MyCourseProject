@@ -26,5 +26,52 @@ namespace Novice_Motorist
             fm.Show();
             this.Close();
         }
+
+        private void Button_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+        }
+
+        private void Exite_Application_MouseLeave(object sender, EventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back;
+        }
+
+        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
+        }
+
+        private void Button_Hide_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide;
+        }
+
+        private void Guid_Form_Main_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
+
+        private void Button_Start_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Glava_1_Introduction
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
     }
 }
