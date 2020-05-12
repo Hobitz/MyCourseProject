@@ -65,5 +65,15 @@ namespace Novice_Motorist
         {
             Button_Hide.Image = Properties.Resources.Button_Hide;
         }
+
+        private void PictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.novicedriver_black;
+        }
+
+        private void PictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.Image = Properties.Resources.Logotype;
+        }
     }
 }

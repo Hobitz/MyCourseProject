@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -73,5 +74,35 @@ namespace Novice_Motorist
             this.Close();
         }
 
+        private void Glava_1_Introduction_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Glava_1_Introduction
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void Glava_1_Introduction_MouseMove(object sender, MouseEventArgs e)
+        {
+            var lavel = sender as System.Windows.Forms.Label;
+            lavel.Font = new Font("Montserrat", 18, FontStyle.Bold);
+        }
+
+        private void Glava_1_Introduction_MouseLeave(object sender, EventArgs e)
+        {
+            var lavel = sender as System.Windows.Forms.Label;
+            lavel.Font = new Font("Montserrat", 16, FontStyle.Bold);
+        }
+
+        private void Glava_2_Brand_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

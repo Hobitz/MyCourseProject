@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Button_Exite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Exite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_Back_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Back_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Exite_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Button_Exite_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,10 +133,13 @@
   <data name="Button_Hide_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Button_Hide_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_Exite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Exite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Back_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Back_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logotype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Logotype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="novicedriver_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\novicedriver_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

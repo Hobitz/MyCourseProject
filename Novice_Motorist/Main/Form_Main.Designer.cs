@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Main));
             this.Guide_Button = new System.Windows.Forms.Button();
             this.Life_Hacks_Button = new System.Windows.Forms.Button();
             this.Express_Button = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Button_Hide = new System.Windows.Forms.PictureBox();
             this.Exite_Application = new System.Windows.Forms.PictureBox();
@@ -44,6 +44,7 @@
             // Guide_Button
             // 
             this.Guide_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Guide_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Guide_Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Guide_Button.FlatAppearance.BorderSize = 0;
             this.Guide_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -51,7 +52,7 @@
             this.Guide_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Guide_Button.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Guide_Button.ForeColor = System.Drawing.Color.White;
-            this.Guide_Button.Location = new System.Drawing.Point(12, 119);
+            this.Guide_Button.Location = new System.Drawing.Point(12, 138);
             this.Guide_Button.Name = "Guide_Button";
             this.Guide_Button.Size = new System.Drawing.Size(201, 78);
             this.Guide_Button.TabIndex = 0;
@@ -62,6 +63,7 @@
             // Life_Hacks_Button
             // 
             this.Life_Hacks_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Life_Hacks_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Life_Hacks_Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Life_Hacks_Button.FlatAppearance.BorderSize = 0;
             this.Life_Hacks_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -69,7 +71,7 @@
             this.Life_Hacks_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Life_Hacks_Button.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Life_Hacks_Button.ForeColor = System.Drawing.Color.White;
-            this.Life_Hacks_Button.Location = new System.Drawing.Point(223, 35);
+            this.Life_Hacks_Button.Location = new System.Drawing.Point(223, 54);
             this.Life_Hacks_Button.Name = "Life_Hacks_Button";
             this.Life_Hacks_Button.Size = new System.Drawing.Size(201, 78);
             this.Life_Hacks_Button.TabIndex = 1;
@@ -79,6 +81,7 @@
             // Express_Button
             // 
             this.Express_Button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Express_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Express_Button.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Express_Button.FlatAppearance.BorderSize = 0;
             this.Express_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -86,7 +89,7 @@
             this.Express_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Express_Button.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Express_Button.ForeColor = System.Drawing.Color.White;
-            this.Express_Button.Location = new System.Drawing.Point(12, 35);
+            this.Express_Button.Location = new System.Drawing.Point(12, 54);
             this.Express_Button.Name = "Express_Button";
             this.Express_Button.Size = new System.Drawing.Size(201, 78);
             this.Express_Button.TabIndex = 2;
@@ -96,6 +99,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -103,25 +107,38 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(223, 119);
+            this.button1.Location = new System.Drawing.Point(223, 138);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(201, 78);
             this.button1.TabIndex = 5;
             this.button1.Text = "Виды машин";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Montserrat ExtraBold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(136)))), ((int)(((byte)(223)))));
+            this.label1.Location = new System.Drawing.Point(98, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(242, 26);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Выбери своего коня!";
+            // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Logotype;
             this.pictureBox2.Location = new System.Drawing.Point(12, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(73, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.PictureBox2_MouseLeave);
+            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PictureBox2_MouseMove);
             // 
             // Button_Hide
             // 
+            this.Button_Hide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button_Hide.Image = global::Novice_Motorist.Properties.Resources.Button_Hide;
             this.Button_Hide.InitialImage = null;
             this.Button_Hide.Location = new System.Drawing.Point(358, 4);
@@ -137,6 +154,7 @@
             // Exite_Application
             // 
             this.Exite_Application.BackColor = System.Drawing.Color.White;
+            this.Exite_Application.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Exite_Application.Image = global::Novice_Motorist.Properties.Resources.Button_Exite;
             this.Exite_Application.InitialImage = null;
             this.Exite_Application.Location = new System.Drawing.Point(399, 4);
@@ -155,9 +173,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(243)))));
-            this.ClientSize = new System.Drawing.Size(436, 207);
+            this.ClientSize = new System.Drawing.Size(436, 224);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
@@ -187,6 +206,7 @@
         private System.Windows.Forms.PictureBox Button_Hide;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label1;
     }
 }
 
