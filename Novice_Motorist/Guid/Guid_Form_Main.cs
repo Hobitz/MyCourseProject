@@ -102,7 +102,16 @@ namespace Novice_Motorist
 
         private void Glava_2_Brand_Click(object sender, EventArgs e)
         {
-
+            Form fm = new Form_Glava_2_Brand
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
         }
     }
 }

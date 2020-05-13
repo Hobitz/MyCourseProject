@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logopng.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Guid\Form_Glava_2_Brand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guid\Form_Glava_2_Brand.Designer.cs">
+      <DependentUpon>Form_Glava_2_Brand.cs</DependentUpon>
+    </Compile>
     <Compile Include="Guid\Form_Glava_1_Introduction.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +77,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Guid\Form_Glava_1_Introduction.resx">
       <DependentUpon>Form_Glava_1_Introduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guid\Form_Glava_2_Brand.resx">
+      <DependentUpon>Form_Glava_2_Brand.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
@@ -102,6 +114,7 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />
     <None Include="Image\1x\Button_Exite_Move.png" />
@@ -110,6 +123,7 @@
     <None Include="Image\1x\Button_Back_Move.png" />
     <None Include="Image\1x\Logotype.png" />
     <None Include="Image\1x\novicedriver_black.png" />
+    <None Include="Image\1x\bg_image.png" />
     <Content Include="Image\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

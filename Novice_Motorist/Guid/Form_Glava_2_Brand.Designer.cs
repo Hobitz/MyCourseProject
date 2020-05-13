@@ -1,6 +1,6 @@
 ﻿namespace Novice_Motorist
 {
-    partial class Form_Glava_1_Introduction
+    partial class Form_Glava_2_Brand
     {
         /// <summary>
         /// Required designer variable.
@@ -28,52 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_1_Introduction));
-            this.Button_Hide = new System.Windows.Forms.PictureBox();
-            this.Glava_1_Introduction = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_2_Brand));
             this.glava1_site_1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.button_sites_back = new System.Windows.Forms.Button();
             this.button_sites_next = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.Button_Exit = new System.Windows.Forms.PictureBox();
             this.button_prev_glav = new System.Windows.Forms.Button();
             this.button_next_glav = new System.Windows.Forms.Button();
-            this.glava_site_2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
+            this.Button_Exit = new System.Windows.Forms.PictureBox();
+            this.Button_Hide = new System.Windows.Forms.PictureBox();
+            this.Exite_Application = new System.Windows.Forms.PictureBox();
+            this.Glava_2_Brand = new System.Windows.Forms.Label();
             this.glava1_site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
-            this.glava_site_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Button_Hide
-            // 
-            this.Button_Hide.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Button_Hide.Image = global::Novice_Motorist.Properties.Resources.Button_Hide;
-            this.Button_Hide.InitialImage = null;
-            this.Button_Hide.Location = new System.Drawing.Point(709, 9);
-            this.Button_Hide.Name = "Button_Hide";
-            this.Button_Hide.Size = new System.Drawing.Size(35, 25);
-            this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.Button_Hide.TabIndex = 7;
-            this.Button_Hide.TabStop = false;
-            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
-            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
-            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
-            // 
-            // Glava_1_Introduction
-            // 
-            this.Glava_1_Introduction.AutoSize = true;
-            this.Glava_1_Introduction.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Glava_1_Introduction.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Glava_1_Introduction.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_1_Introduction.Location = new System.Drawing.Point(142, 9);
-            this.Glava_1_Introduction.Name = "Glava_1_Introduction";
-            this.Glava_1_Introduction.Size = new System.Drawing.Size(484, 33);
-            this.Glava_1_Introduction.TabIndex = 8;
-            this.Glava_1_Introduction.Text = "Глава 1: Вступление и предисловие.";
             // 
             // glava1_site_1
             // 
@@ -89,11 +61,10 @@
             // 
             this.label1.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label1.Location = new System.Drawing.Point(26, 107);
+            this.label1.Location = new System.Drawing.Point(26, 115);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(690, 132);
             this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
             // 
             // button_sites_back
             // 
@@ -159,22 +130,6 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "/ 2";
             // 
-            // Button_Exit
-            // 
-            this.Button_Exit.BackColor = System.Drawing.Color.White;
-            this.Button_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Button_Exit.Image = global::Novice_Motorist.Properties.Resources.Button_Exite;
-            this.Button_Exit.InitialImage = null;
-            this.Button_Exit.Location = new System.Drawing.Point(750, 9);
-            this.Button_Exit.Name = "Button_Exit";
-            this.Button_Exit.Size = new System.Drawing.Size(25, 25);
-            this.Button_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.Button_Exit.TabIndex = 14;
-            this.Button_Exit.TabStop = false;
-            this.Button_Exit.Click += new System.EventHandler(this.Button_Exit_Click);
-            this.Button_Exit.MouseLeave += new System.EventHandler(this.Button_Exit_MouseLeave);
-            this.Button_Exit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Exit_MouseMove);
-            // 
             // button_prev_glav
             // 
             this.button_prev_glav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
@@ -187,13 +142,12 @@
             this.button_prev_glav.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_prev_glav.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button_prev_glav.ForeColor = System.Drawing.Color.White;
-            this.button_prev_glav.Location = new System.Drawing.Point(126, 414);
+            this.button_prev_glav.Location = new System.Drawing.Point(136, 414);
             this.button_prev_glav.Name = "button_prev_glav";
-            this.button_prev_glav.Size = new System.Drawing.Size(148, 32);
+            this.button_prev_glav.Size = new System.Drawing.Size(138, 32);
             this.button_prev_glav.TabIndex = 15;
-            this.button_prev_glav.Text = "К главн. меню";
+            this.button_prev_glav.Text = "К пред. главе";
             this.button_prev_glav.UseVisualStyleBackColor = false;
-            this.button_prev_glav.Click += new System.EventHandler(this.Button_prev_glav_Click);
             // 
             // button_next_glav
             // 
@@ -213,56 +167,94 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
-            this.button_next_glav.Click += new System.EventHandler(this.button_next_glav_Click);
             // 
-            // glava_site_2
+            // Button_Exit
             // 
-            this.glava_site_2.BackColor = System.Drawing.Color.White;
-            this.glava_site_2.Controls.Add(this.label2);
-            this.glava_site_2.Enabled = false;
-            this.glava_site_2.Location = new System.Drawing.Point(28, 44);
-            this.glava_site_2.Name = "glava_site_2";
-            this.glava_site_2.Size = new System.Drawing.Size(740, 364);
-            this.glava_site_2.TabIndex = 10;
+            this.Button_Exit.BackColor = System.Drawing.Color.White;
+            this.Button_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Exit.Image = global::Novice_Motorist.Properties.Resources.Button_Exite;
+            this.Button_Exit.InitialImage = null;
+            this.Button_Exit.Location = new System.Drawing.Point(750, 9);
+            this.Button_Exit.Name = "Button_Exit";
+            this.Button_Exit.Size = new System.Drawing.Size(25, 25);
+            this.Button_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Button_Exit.TabIndex = 14;
+            this.Button_Exit.TabStop = false;
+            this.Button_Exit.Click += new System.EventHandler(this.Button_Exit_Click);
+            this.Button_Exit.MouseLeave += new System.EventHandler(this.Button_Exit_MouseLeave);
+            this.Button_Exit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Exit_MouseMove);
             // 
-            // label2
+            // Button_Hide
             // 
-            this.label2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label2.Location = new System.Drawing.Point(26, 107);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(690, 132);
-            this.label2.TabIndex = 0;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.Button_Hide.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Hide.Image = global::Novice_Motorist.Properties.Resources.Button_Hide;
+            this.Button_Hide.InitialImage = null;
+            this.Button_Hide.Location = new System.Drawing.Point(679, 9);
+            this.Button_Hide.Name = "Button_Hide";
+            this.Button_Hide.Size = new System.Drawing.Size(35, 25);
+            this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Button_Hide.TabIndex = 7;
+            this.Button_Hide.TabStop = false;
+            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
+            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
+            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
-            // Form_Glava_1_Introduction
+            // Exite_Application
+            // 
+            this.Exite_Application.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Exite_Application.Image = global::Novice_Motorist.Properties.Resources.Button_Back;
+            this.Exite_Application.InitialImage = null;
+            this.Exite_Application.Location = new System.Drawing.Point(719, 9);
+            this.Exite_Application.Name = "Exite_Application";
+            this.Exite_Application.Size = new System.Drawing.Size(25, 25);
+            this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.Exite_Application.TabIndex = 6;
+            this.Exite_Application.TabStop = false;
+            this.Exite_Application.Click += new System.EventHandler(this.Exite_Application_Click);
+            this.Exite_Application.MouseLeave += new System.EventHandler(this.Exite_Application_MouseLeave);
+            this.Exite_Application.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Exite_Application_MouseMove);
+            // 
+            // Glava_2_Brand
+            // 
+            this.Glava_2_Brand.AutoSize = true;
+            this.Glava_2_Brand.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Glava_2_Brand.Location = new System.Drawing.Point(196, 1);
+            this.Glava_2_Brand.Name = "Glava_2_Brand";
+            this.Glava_2_Brand.Size = new System.Drawing.Size(390, 33);
+            this.Glava_2_Brand.TabIndex = 17;
+            this.Glava_2_Brand.Text = "Глава 2: Марки автомобилей";
+            // 
+            // Form_Glava_2_Brand
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(243)))));
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
             this.ClientSize = new System.Drawing.Size(800, 457);
+            this.Controls.Add(this.Glava_2_Brand);
             this.Controls.Add(this.button_next_glav);
             this.Controls.Add(this.button_prev_glav);
             this.Controls.Add(this.Button_Exit);
-            this.Controls.Add(this.glava_site_2);
             this.Controls.Add(this.glava1_site_1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button_sites_next);
             this.Controls.Add(this.button_sites_back);
-            this.Controls.Add(this.Glava_1_Introduction);
             this.Controls.Add(this.Button_Hide);
+            this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form_Glava_1_Introduction";
+            this.Name = "Form_Glava_2_Brand";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_1_Introduction_MouseDown);
-            ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_2_Brand_MouseDown);
             this.glava1_site_1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).EndInit();
-            this.glava_site_2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -271,7 +263,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox Button_Hide;
-        private System.Windows.Forms.Label Glava_1_Introduction;
+        private System.Windows.Forms.PictureBox Exite_Application;
         private System.Windows.Forms.Panel glava1_site_1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button_sites_back;
@@ -281,7 +273,6 @@
         private System.Windows.Forms.PictureBox Button_Exit;
         private System.Windows.Forms.Button button_prev_glav;
         private System.Windows.Forms.Button button_next_glav;
-        private System.Windows.Forms.Panel glava_site_2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Glava_2_Brand;
     }
 }

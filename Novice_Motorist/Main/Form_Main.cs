@@ -26,7 +26,6 @@ namespace Novice_Motorist
             };
             fm.Show(); 
             this.Hide(); 
-
         }
 
         private void Exite_Application_Click(object sender, EventArgs e)
