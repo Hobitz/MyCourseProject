@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Novice_Motorist
 {
-    public partial class Form_Glava_3_Fuel : Form
+    public partial class Form_Glava_4_Power : Form
     {
         readonly Panel[] Sites = new Panel[5];
         int num = 1;
-        public Form_Glava_3_Fuel()
+        public Form_Glava_4_Power()
         {
             InitializeComponent();
             Sites[0] = site_1;
@@ -49,7 +49,12 @@ namespace Novice_Motorist
             this.Close();
         }
 
-        private void Button_sites_next_Click(object sender, EventArgs e)
+        private void Button_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button_sites_next_Click(object sender, EventArgs e)
         {
             if (num == Sites.Length)
             {
@@ -68,7 +73,7 @@ namespace Novice_Motorist
             }
         }
 
-        private void Button_sites_back_Click(object sender, EventArgs e)
+        private void button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -87,16 +92,18 @@ namespace Novice_Motorist
             }
         }
 
-        private void Button_Hide_Click(object sender, EventArgs e)
+        private void button_prev_glav_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void Form_Glava_3_Fuel_MouseDown(object sender, MouseEventArgs e)
-        {
-            base.Capture = false;
-            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
-            this.WndProc(ref m);
+            Form fg = new Form_Glava_3_Fuel
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fg.StartPosition = FormStartPosition.Manual;
+            fg.Left = this.Left;
+            fg.Top = this.Top;
+            fg.Show();
+            this.Close();
         }
 
         private void Button_Exit_MouseMove(object sender, MouseEventArgs e)
@@ -127,34 +134,6 @@ namespace Novice_Motorist
         private void Button_Hide_MouseLeave(object sender, EventArgs e)
         {
             Button_Hide.Image = Properties.Resources.Button_Hide;
-        }
-
-        private void Button_prev_glav_Click(object sender, EventArgs e)
-        {
-            Form fg = new Form_Glava_2_Brand
-            {
-                Left = this.Left,
-                Top = this.Top
-            };
-            fg.StartPosition = FormStartPosition.Manual;
-            fg.Left = this.Left;
-            fg.Top = this.Top;
-            fg.Show();
-            this.Close();
-        }
-
-        private void button_next_glav_Click(object sender, EventArgs e)
-        {
-            Form fg = new Form_Glava_4_Power
-            {
-                Left = this.Left,
-                Top = this.Top
-            };
-            fg.StartPosition = FormStartPosition.Manual;
-            fg.Left = this.Left;
-            fg.Top = this.Top;
-            fg.Show();
-            this.Close();
         }
     }
 }
