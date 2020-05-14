@@ -114,7 +114,7 @@ namespace Novice_Motorist
             this.Close();
         }
 
-        private void button_next_glav_Click(object sender, EventArgs e)
+        private void Button_next_glav_Click(object sender, EventArgs e)
         {
             Form fm = new Form_Glava_2_Brand
             {

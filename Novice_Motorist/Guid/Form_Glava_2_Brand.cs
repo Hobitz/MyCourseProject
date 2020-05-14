@@ -12,13 +12,14 @@ namespace Novice_Motorist
 {
     public partial class Form_Glava_2_Brand : Form
     {
-        readonly Panel[] Sites = new Panel[1];
+        readonly Panel[] Sites = new Panel[2];
         int num = 1;
         public Form_Glava_2_Brand()
         {
             InitializeComponent();
-            Sites[0] = glava1_site_1;
-            //Sites[1].Visible = false;
+            Sites[0] = glava_2_site_1;
+            Sites[1] = glava_2_site_2;
+            Sites[1].Visible = false;
             label3.Text = "1";
             label4.Text = "/ " + Sites.Length.ToString();
         }
@@ -120,6 +121,46 @@ namespace Novice_Motorist
                     break;
                 }
             }
+        }
+
+        private void Picture_car_body_MouseMove(object sender, MouseEventArgs e)
+        {
+            picture_car_body.Location = new Point(0, 0);
+            picture_car_body.Size = new Size{ Width = 731, Height = 364 };
+        }
+
+        private void Picture_car_body_MouseLeave(object sender, EventArgs e)
+        {
+            picture_car_body.Location = new Point(162, 129);
+            picture_car_body.Size = new Size { Width = 433, Height = 221 };
+        }
+
+        private void Button_prev_glav_Click(object sender, EventArgs e)
+        {
+            Form fg = new Form_Glava_1_Introduction
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fg.StartPosition = FormStartPosition.Manual;
+            fg.Left = this.Left;
+            fg.Top = this.Top;
+            fg.Show();
+            this.Close();
+        }
+
+        private void button_next_glav_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Glava_3_Fuel
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
         }
     }
 }

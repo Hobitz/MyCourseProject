@@ -79,7 +79,6 @@
             // 
             this.glava1_site_1.BackColor = System.Drawing.Color.White;
             this.glava1_site_1.Controls.Add(this.label1);
-            this.glava1_site_1.Enabled = false;
             this.glava1_site_1.Location = new System.Drawing.Point(28, 45);
             this.glava1_site_1.Name = "glava1_site_1";
             this.glava1_site_1.Size = new System.Drawing.Size(740, 364);
@@ -94,6 +93,7 @@
             this.label1.Size = new System.Drawing.Size(690, 132);
             this.label1.TabIndex = 0;
             this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button_sites_back
             // 
@@ -213,13 +213,12 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
-            this.button_next_glav.Click += new System.EventHandler(this.button_next_glav_Click);
+            this.button_next_glav.Click += new System.EventHandler(this.Button_next_glav_Click);
             // 
             // glava_site_2
             // 
             this.glava_site_2.BackColor = System.Drawing.Color.White;
             this.glava_site_2.Controls.Add(this.label2);
-            this.glava_site_2.Enabled = false;
             this.glava_site_2.Location = new System.Drawing.Point(28, 44);
             this.glava_site_2.Name = "glava_site_2";
             this.glava_site_2.Size = new System.Drawing.Size(740, 364);
@@ -229,11 +228,12 @@
             // 
             this.label2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label2.Location = new System.Drawing.Point(26, 107);
+            this.label2.Location = new System.Drawing.Point(26, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(690, 132);
+            this.label2.Size = new System.Drawing.Size(690, 173);
             this.label2.TabIndex = 0;
             this.label2.Text = resources.GetString("label2.Text");
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form_Glava_1_Introduction
             // 

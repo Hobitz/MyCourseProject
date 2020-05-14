@@ -1,6 +1,6 @@
 ﻿namespace Novice_Motorist
 {
-    partial class Form_Glava_2_Brand
+    partial class Form_Glava_3_Fuel
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_2_Brand));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_3_Fuel));
             this.glava_2_site_1 = new System.Windows.Forms.Panel();
             this.picture_car_body = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,14 +44,13 @@
             this.Exite_Application = new System.Windows.Forms.PictureBox();
             this.Glava_2_Brand = new System.Windows.Forms.Label();
             this.glava_2_site_2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.glava_2_site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picture_car_body)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).BeginInit();
             this.glava_2_site_2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // glava_2_site_1
@@ -74,8 +73,6 @@
             this.picture_car_body.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picture_car_body.TabIndex = 2;
             this.picture_car_body.TabStop = false;
-            this.picture_car_body.MouseLeave += new System.EventHandler(this.Picture_car_body_MouseLeave);
-            this.picture_car_body.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Picture_car_body_MouseMove);
             // 
             // label2
             // 
@@ -119,7 +116,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -139,7 +136,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
             // 
             // label3
             // 
@@ -183,7 +180,7 @@
             this.button_prev_glav.TabIndex = 15;
             this.button_prev_glav.Text = "К пред. главе";
             this.button_prev_glav.UseVisualStyleBackColor = false;
-            this.button_prev_glav.Click += new System.EventHandler(this.Button_prev_glav_Click);
+            this.button_prev_glav.Click += new System.EventHandler(this.button_prev_glav_Click);
             // 
             // button_next_glav
             // 
@@ -203,7 +200,6 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
-            this.button_next_glav.Click += new System.EventHandler(this.button_next_glav_Click);
             // 
             // Button_Exit
             // 
@@ -258,32 +254,33 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(130, 6);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(239, 9);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(484, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(314, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "Глава 2: Типы кузовов автомобилей";
+            this.Glava_2_Brand.Text = "Глава 3: Виды топливы";
             // 
             // glava_2_site_2
             // 
             this.glava_2_site_2.BackColor = System.Drawing.Color.White;
-            this.glava_2_site_2.Controls.Add(this.pictureBox1);
+            this.glava_2_site_2.Controls.Add(this.label5);
             this.glava_2_site_2.Location = new System.Drawing.Point(29, 45);
             this.glava_2_site_2.Name = "glava_2_site_2";
             this.glava_2_site_2.Size = new System.Drawing.Size(740, 364);
             this.glava_2_site_2.TabIndex = 10;
             // 
-            // pictureBox1
+            // label5
             // 
-            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.types_body_cars;
-            this.pictureBox1.Location = new System.Drawing.Point(38, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(662, 364);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.label5.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
+            this.label5.Location = new System.Drawing.Point(0, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(740, 328);
+            this.label5.TabIndex = 2;
+            this.label5.Text = resources.GetString("label5.Text");
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form_Glava_2_Brand
+            // Form_Glava_3_Fuel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -304,17 +301,16 @@
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form_Glava_2_Brand";
+            this.Name = "Form_Glava_3_Fuel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_2_Brand_MouseDown);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_3_Fuel_MouseDown);
             this.glava_2_site_1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picture_car_body)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).EndInit();
             this.glava_2_site_2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,6 +333,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel glava_2_site_2;
         private System.Windows.Forms.PictureBox picture_car_body;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label5;
     }
 }

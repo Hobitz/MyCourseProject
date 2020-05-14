@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Guid\Form_Glava_3_Fuel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guid\Form_Glava_3_Fuel.Designer.cs">
+      <DependentUpon>Form_Glava_3_Fuel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Guid\Form_Glava_2_Brand.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Guid\Form_Glava_2_Brand.resx">
       <DependentUpon>Form_Glava_2_Brand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guid\Form_Glava_3_Fuel.resx">
+      <DependentUpon>Form_Glava_3_Fuel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main\Form_Main.resx">
       <DependentUpon>Form_Main.cs</DependentUpon>
@@ -114,6 +123,10 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Image\1x\1x\logo_auto_volkswagen.png" />
+    <None Include="Image\1x\1x\logo_auto_volkswagen_1.png" />
+    <None Include="Image\1x\carbody.jpg" />
+    <None Include="Image\1x\types_body_cars.jpeg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

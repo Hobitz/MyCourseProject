@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Guid_Form_Main));
             this.Glava_1_Introduction = new System.Windows.Forms.Label();
             this.Glava_2_Brand = new System.Windows.Forms.Label();
-            this.Glava_3_Model = new System.Windows.Forms.Label();
             this.Glava_4_Fuel = new System.Windows.Forms.Label();
             this.Glava_5_Power = new System.Windows.Forms.Label();
             this.Glava_6_Options = new System.Windows.Forms.Label();
@@ -68,27 +67,12 @@
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
             this.Glava_2_Brand.Location = new System.Drawing.Point(18, 101);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(341, 29);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(422, 29);
             this.Glava_2_Brand.TabIndex = 7;
-            this.Glava_2_Brand.Text = "Глава 2: Марки автомобилей";
+            this.Glava_2_Brand.Text = "Глава 2: Типы кузовов автомобилей";
             this.Glava_2_Brand.Click += new System.EventHandler(this.Glava_2_Brand_Click);
             this.Glava_2_Brand.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_2_Brand.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
-            // 
-            // Glava_3_Model
-            // 
-            this.Glava_3_Model.AutoSize = true;
-            this.Glava_3_Model.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Glava_3_Model.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Glava_3_Model.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Glava_3_Model.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_3_Model.Location = new System.Drawing.Point(18, 148);
-            this.Glava_3_Model.Name = "Glava_3_Model";
-            this.Glava_3_Model.Size = new System.Drawing.Size(446, 29);
-            this.Glava_3_Model.TabIndex = 8;
-            this.Glava_3_Model.Text = "Глава 3: Классы кузовов автомобилей";
-            this.Glava_3_Model.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
-            this.Glava_3_Model.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 
             // Glava_4_Fuel
             // 
@@ -97,11 +81,12 @@
             this.Glava_4_Fuel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_4_Fuel.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_4_Fuel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_4_Fuel.Location = new System.Drawing.Point(18, 194);
+            this.Glava_4_Fuel.Location = new System.Drawing.Point(18, 144);
             this.Glava_4_Fuel.Name = "Glava_4_Fuel";
-            this.Glava_4_Fuel.Size = new System.Drawing.Size(271, 29);
+            this.Glava_4_Fuel.Size = new System.Drawing.Size(269, 29);
             this.Glava_4_Fuel.TabIndex = 9;
-            this.Glava_4_Fuel.Text = "Глава 4: Виды топлива";
+            this.Glava_4_Fuel.Text = "Глава 3: Виды топлива";
+            this.Glava_4_Fuel.Click += new System.EventHandler(this.Glava_4_Fuel_Click);
             this.Glava_4_Fuel.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_4_Fuel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 
@@ -112,11 +97,11 @@
             this.Glava_5_Power.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_5_Power.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_5_Power.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_5_Power.Location = new System.Drawing.Point(18, 240);
+            this.Glava_5_Power.Location = new System.Drawing.Point(18, 185);
             this.Glava_5_Power.Name = "Glava_5_Power";
-            this.Glava_5_Power.Size = new System.Drawing.Size(311, 29);
+            this.Glava_5_Power.Size = new System.Drawing.Size(312, 29);
             this.Glava_5_Power.TabIndex = 10;
-            this.Glava_5_Power.Text = "Глава 5: Виды двигателей";
+            this.Glava_5_Power.Text = "Глава 4: Виды двигателей";
             this.Glava_5_Power.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_5_Power.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 
@@ -127,11 +112,11 @@
             this.Glava_6_Options.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_6_Options.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_6_Options.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_6_Options.Location = new System.Drawing.Point(18, 281);
+            this.Glava_6_Options.Location = new System.Drawing.Point(18, 228);
             this.Glava_6_Options.Name = "Glava_6_Options";
             this.Glava_6_Options.Size = new System.Drawing.Size(491, 29);
             this.Glava_6_Options.TabIndex = 11;
-            this.Glava_6_Options.Text = "Глава 6: Дополнительные опции машины";
+            this.Glava_6_Options.Text = "Глава 5: Дополнительные опции машины";
             this.Glava_6_Options.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_6_Options.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 
@@ -146,7 +131,7 @@
             this.Button_Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button_Start.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Button_Start.ForeColor = System.Drawing.Color.White;
-            this.Button_Start.Location = new System.Drawing.Point(106, 328);
+            this.Button_Start.Location = new System.Drawing.Point(107, 276);
             this.Button_Start.Name = "Button_Start";
             this.Button_Start.Size = new System.Drawing.Size(357, 63);
             this.Button_Start.TabIndex = 12;
@@ -202,13 +187,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
-            this.ClientSize = new System.Drawing.Size(582, 403);
+            this.ClientSize = new System.Drawing.Size(582, 349);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Button_Start);
             this.Controls.Add(this.Glava_6_Options);
             this.Controls.Add(this.Glava_5_Power);
             this.Controls.Add(this.Glava_4_Fuel);
-            this.Controls.Add(this.Glava_3_Model);
             this.Controls.Add(this.Glava_2_Brand);
             this.Controls.Add(this.Glava_1_Introduction);
             this.Controls.Add(this.Button_Hide);
@@ -232,7 +216,6 @@
         private System.Windows.Forms.PictureBox Button_Hide;
         private System.Windows.Forms.Label Glava_1_Introduction;
         private System.Windows.Forms.Label Glava_2_Brand;
-        private System.Windows.Forms.Label Glava_3_Model;
         private System.Windows.Forms.Label Glava_4_Fuel;
         private System.Windows.Forms.Label Glava_5_Power;
         private System.Windows.Forms.Label Glava_6_Options;

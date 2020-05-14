@@ -133,6 +133,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap carbody {
+            get {
+                object obj = ResourceManager.GetObject("carbody", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_auto_volkswagen_1 {
+            get {
+                object obj = ResourceManager.GetObject("logo_auto_volkswagen_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logotype {
             get {
                 object obj = ResourceManager.GetObject("Logotype", resourceCulture);
@@ -146,6 +166,16 @@ namespace Novice_Motorist.Properties {
         internal static System.Drawing.Bitmap novicedriver_black {
             get {
                 object obj = ResourceManager.GetObject("novicedriver_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap types_body_cars {
+            get {
+                object obj = ResourceManager.GetObject("types_body_cars", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
