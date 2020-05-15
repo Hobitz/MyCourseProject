@@ -102,6 +102,7 @@
             this.Glava_5_Power.Size = new System.Drawing.Size(312, 29);
             this.Glava_5_Power.TabIndex = 10;
             this.Glava_5_Power.Text = "Глава 4: Виды двигателей";
+            this.Glava_5_Power.Click += new System.EventHandler(this.Glava_5_Power_Click);
             this.Glava_5_Power.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_5_Power.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 
@@ -145,7 +146,7 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.label1.Location = new System.Drawing.Point(191, 9);
+            this.label1.Location = new System.Drawing.Point(201, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(180, 33);
             this.label1.TabIndex = 13;

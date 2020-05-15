@@ -127,5 +127,19 @@ namespace Novice_Motorist
             fm.Show();
             this.Close();
         }
+
+        private void Glava_5_Power_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Glava_4_Power
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
     }
 }

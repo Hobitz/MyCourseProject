@@ -173,6 +173,16 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap picture_parking_device {
+            get {
+                object obj = ResourceManager.GetObject("picture_parking_device", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap types_body_cars {
             get {
                 object obj = ResourceManager.GetObject("types_body_cars", resourceCulture);
