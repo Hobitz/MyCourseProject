@@ -49,6 +49,7 @@
             this.site_6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
@@ -314,6 +315,18 @@
     "в ограниченном пространстве. ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label7.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label7.Location = new System.Drawing.Point(193, 1);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(440, 33);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "Глава 5: Дополнительные опции";
+            // 
             // Form_Glava_5_ADDOption
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -321,6 +334,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(243)))));
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
             this.ClientSize = new System.Drawing.Size(800, 457);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
             this.Controls.Add(this.site_3);
@@ -375,5 +389,6 @@
         private System.Windows.Forms.Panel site_6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label7;
     }
 }
