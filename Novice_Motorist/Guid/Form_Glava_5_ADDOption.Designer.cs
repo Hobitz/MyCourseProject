@@ -40,7 +40,6 @@
             this.Button_Exit = new System.Windows.Forms.PictureBox();
             this.Button_Hide = new System.Windows.Forms.PictureBox();
             this.Exite_Application = new System.Windows.Forms.PictureBox();
-            this.Glava_2_Brand = new System.Windows.Forms.Label();
             this.site_2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.site_3 = new System.Windows.Forms.Panel();
@@ -218,19 +217,6 @@
             this.Exite_Application.TabIndex = 6;
             this.Exite_Application.TabStop = false;
             // 
-            // Glava_2_Brand
-            // 
-            this.Glava_2_Brand.AutoSize = true;
-            this.Glava_2_Brand.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(180, 3);
-            this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(350, 33);
-            this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "Глава 5: Дополнительные";
-            // 
             // site_2
             // 
             this.site_2.BackColor = System.Drawing.Color.White;
@@ -335,7 +321,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(242)))), ((int)(((byte)(243)))));
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
             this.ClientSize = new System.Drawing.Size(800, 457);
-            this.Controls.Add(this.Glava_2_Brand);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
             this.Controls.Add(this.site_3);
@@ -380,7 +365,6 @@
         private System.Windows.Forms.PictureBox Button_Exit;
         private System.Windows.Forms.Button button_prev_glav;
         private System.Windows.Forms.Button button_next_glav;
-        private System.Windows.Forms.Label Glava_2_Brand;
         private System.Windows.Forms.Panel site_2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
