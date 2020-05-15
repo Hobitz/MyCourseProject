@@ -12,7 +12,7 @@ namespace Novice_Motorist
 {
     public partial class Form_Glava_4_Power : Form
     {
-        readonly Panel[] Sites = new Panel[5];
+        readonly Panel[] Sites = new Panel[8];
         int num = 1;
         public Form_Glava_4_Power()
         {
@@ -22,10 +22,16 @@ namespace Novice_Motorist
             Sites[2] = site_3;
             Sites[3] = site_4;
             Sites[4] = site_5;
+            Sites[5] = site_6;
+            Sites[6] = site_8;
+            Sites[7] = site_9;
             Sites[1].Visible = false;
             Sites[2].Visible = false;
             Sites[3].Visible = false;
             Sites[4].Visible = false;
+            Sites[5].Visible = false;
+            Sites[6].Visible = false;
+            Sites[7].Visible = false;
             label3.Text = "1";
             label4.Text = "/ " + Sites.Length.ToString();
         }
@@ -54,7 +60,7 @@ namespace Novice_Motorist
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button_sites_next_Click(object sender, EventArgs e)
+        private void Button_sites_next_Click(object sender, EventArgs e)
         {
             if (num == Sites.Length)
             {
@@ -73,7 +79,7 @@ namespace Novice_Motorist
             }
         }
 
-        private void button_sites_back_Click(object sender, EventArgs e)
+        private void Button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -92,7 +98,7 @@ namespace Novice_Motorist
             }
         }
 
-        private void button_prev_glav_Click(object sender, EventArgs e)
+        private void Button_prev_glav_Click(object sender, EventArgs e)
         {
             Form fg = new Form_Glava_3_Fuel
             {
@@ -134,6 +140,13 @@ namespace Novice_Motorist
         private void Button_Hide_MouseLeave(object sender, EventArgs e)
         {
             Button_Hide.Image = Properties.Resources.Button_Hide;
+        }
+
+        private void Form_Glava_4_Power_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
         }
     }
 }

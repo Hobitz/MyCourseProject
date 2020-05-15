@@ -181,7 +181,7 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
-            this.button_next_glav.Click += new System.EventHandler(this.button_next_glav_Click);
+            this.button_next_glav.Click += new System.EventHandler(this.Button_next_glav_Click);
             // 
             // Button_Exit
             // 
@@ -236,7 +236,7 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(239, 9);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(243, 3);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
             this.Glava_2_Brand.Size = new System.Drawing.Size(314, 33);
             this.Glava_2_Brand.TabIndex = 17;
@@ -338,8 +338,8 @@
             this.Controls.Add(this.button_next_glav);
             this.Controls.Add(this.button_prev_glav);
             this.Controls.Add(this.Button_Exit);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button_sites_next);
             this.Controls.Add(this.button_sites_back);
             this.Controls.Add(this.Button_Hide);

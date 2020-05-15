@@ -1,6 +1,6 @@
 ﻿namespace Novice_Motorist
 {
-    partial class Form_Glava_4_Power
+    partial class Form_Glava_5_ADDOption
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_4_Power));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Glava_5_ADDOption));
             this.site_1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button_sites_back = new System.Windows.Forms.Button();
             this.button_sites_next = new System.Windows.Forms.Button();
@@ -48,14 +47,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.site_4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.site_5 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.site_6 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.site_8 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.site_9 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
@@ -63,44 +57,28 @@
             this.site_2.SuspendLayout();
             this.site_3.SuspendLayout();
             this.site_4.SuspendLayout();
-            this.site_5.SuspendLayout();
             this.site_6.SuspendLayout();
-            this.site_8.SuspendLayout();
-            this.site_9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // site_1
             // 
             this.site_1.BackColor = System.Drawing.Color.White;
-            this.site_1.Controls.Add(this.label8);
             this.site_1.Controls.Add(this.label5);
             this.site_1.Location = new System.Drawing.Point(29, 45);
             this.site_1.Name = "site_1";
             this.site_1.Size = new System.Drawing.Size(740, 364);
             this.site_1.TabIndex = 9;
             // 
-            // label8
-            // 
-            this.label8.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label8.Location = new System.Drawing.Point(19, 117);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(740, 200);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "1)Бензиновый двигатель\r\n  1.1)Карбюраторная система впрыска\r\n    1.2)Инжектор\r\n2)" +
-    "Дизельные двигатели\r\n3)Газовый двигатель\r\n4)Электрические моторы\r\n5)Гибрид";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label5.Location = new System.Drawing.Point(-3, 50);
+            this.label5.Location = new System.Drawing.Point(-1, 92);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(740, 79);
+            this.label5.Size = new System.Drawing.Size(740, 182);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Рассмотрим, какие существуют виды автомобильных ДВС, а также укажем типы двигател" +
-    "ей:\r\n";
+            this.label5.Text = resources.GetString("label5.Text");
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button_sites_back
@@ -121,7 +99,6 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -141,7 +118,6 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -185,7 +161,6 @@
             this.button_prev_glav.TabIndex = 15;
             this.button_prev_glav.Text = "К пред. главе";
             this.button_prev_glav.UseVisualStyleBackColor = false;
-            this.button_prev_glav.Click += new System.EventHandler(this.Button_prev_glav_Click);
             // 
             // button_next_glav
             // 
@@ -218,9 +193,6 @@
             this.Button_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Exit.TabIndex = 14;
             this.Button_Exit.TabStop = false;
-            this.Button_Exit.Click += new System.EventHandler(this.Button_Exit_Click);
-            this.Button_Exit.MouseLeave += new System.EventHandler(this.Button_Exit_MouseLeave);
-            this.Button_Exit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Exit_MouseMove);
             // 
             // Button_Hide
             // 
@@ -233,9 +205,6 @@
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Hide.TabIndex = 7;
             this.Button_Hide.TabStop = false;
-            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
-            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
-            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
             // Exite_Application
             // 
@@ -248,9 +217,6 @@
             this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Exite_Application.TabIndex = 6;
             this.Exite_Application.TabStop = false;
-            this.Exite_Application.Click += new System.EventHandler(this.Exite_Application_Click);
-            this.Exite_Application.MouseLeave += new System.EventHandler(this.Exite_Application_MouseLeave);
-            this.Exite_Application.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Exite_Application_MouseMove);
             // 
             // Glava_2_Brand
             // 
@@ -259,11 +225,11 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(222, 3);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(180, 3);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(355, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(440, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "Глава 4: Виды двигателей";
+            this.Glava_2_Brand.Text = "Глава 5: Дополнительные опции";
             // 
             // site_2
             // 
@@ -302,7 +268,9 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(740, 330);
             this.label2.TabIndex = 3;
-            this.label2.Text = resources.GetString("label2.Text");
+            this.label2.Text = "Подогрев сидений- данная функция отвечает сама на свой функционал, с помощью её в" +
+    "ы не будете боятся холодных зим, но и платить за это придется увеличенным энерго" +
+    " потреблением";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // site_4
@@ -325,87 +293,42 @@
             this.label6.Text = resources.GetString("label6.Text");
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // site_5
-            // 
-            this.site_5.BackColor = System.Drawing.Color.White;
-            this.site_5.Controls.Add(this.label7);
-            this.site_5.Location = new System.Drawing.Point(29, 41);
-            this.site_5.Name = "site_5";
-            this.site_5.Size = new System.Drawing.Size(740, 364);
-            this.site_5.TabIndex = 13;
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label7.Location = new System.Drawing.Point(1, -83);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(740, 540);
-            this.label7.TabIndex = 3;
-            this.label7.Text = resources.GetString("label7.Text");
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // site_6
             // 
             this.site_6.BackColor = System.Drawing.Color.White;
+            this.site_6.Controls.Add(this.pictureBox1);
             this.site_6.Controls.Add(this.label9);
             this.site_6.Location = new System.Drawing.Point(30, 41);
             this.site_6.Name = "site_6";
             this.site_6.Size = new System.Drawing.Size(740, 364);
             this.site_6.TabIndex = 14;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.picture_parking_device;
+            this.pictureBox1.Location = new System.Drawing.Point(124, 120);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(479, 236);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.PictureBox1_MouseLeave);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseMove);
+            // 
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label9.Location = new System.Drawing.Point(1, -83);
+            this.label9.Location = new System.Drawing.Point(0, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(740, 540);
+            this.label9.Size = new System.Drawing.Size(739, 126);
             this.label9.TabIndex = 3;
-            this.label9.Text = resources.GetString("label9.Text");
+            this.label9.Text = "Парктронник (Парковочное устройство) - это незаменимый помощник в городских услов" +
+    "иях. С его помощью облегчается парковка автомобиля для начинающих автолюбителей " +
+    "в ограниченном пространстве. ";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // site_8
-            // 
-            this.site_8.BackColor = System.Drawing.Color.White;
-            this.site_8.Controls.Add(this.label11);
-            this.site_8.Location = new System.Drawing.Point(28, 42);
-            this.site_8.Name = "site_8";
-            this.site_8.Size = new System.Drawing.Size(740, 364);
-            this.site_8.TabIndex = 16;
-            // 
-            // label11
-            // 
-            this.label11.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label11.Location = new System.Drawing.Point(0, -79);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(740, 540);
-            this.label11.TabIndex = 3;
-            this.label11.Text = resources.GetString("label11.Text");
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // site_9
-            // 
-            this.site_9.BackColor = System.Drawing.Color.White;
-            this.site_9.Controls.Add(this.label12);
-            this.site_9.Location = new System.Drawing.Point(31, 41);
-            this.site_9.Name = "site_9";
-            this.site_9.Size = new System.Drawing.Size(740, 364);
-            this.site_9.TabIndex = 17;
-            // 
-            // label12
-            // 
-            this.label12.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label12.Location = new System.Drawing.Point(1, -80);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(740, 540);
-            this.label12.TabIndex = 3;
-            this.label12.Text = resources.GetString("label12.Text");
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Form_Glava_4_Power
+            // Form_Glava_5_ADDOption
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -413,14 +336,11 @@
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Glava_2_Brand);
-            this.Controls.Add(this.site_9);
-            this.Controls.Add(this.site_8);
-            this.Controls.Add(this.site_6);
-            this.Controls.Add(this.site_1);
-            this.Controls.Add(this.site_5);
-            this.Controls.Add(this.site_4);
-            this.Controls.Add(this.site_3);
             this.Controls.Add(this.site_2);
+            this.Controls.Add(this.site_1);
+            this.Controls.Add(this.site_3);
+            this.Controls.Add(this.site_4);
+            this.Controls.Add(this.site_6);
             this.Controls.Add(this.button_next_glav);
             this.Controls.Add(this.button_prev_glav);
             this.Controls.Add(this.Button_Exit);
@@ -431,10 +351,9 @@
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form_Glava_4_Power";
+            this.Name = "Form_Glava_5_ADDOption";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_4_Power_MouseDown);
             this.site_1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
@@ -442,10 +361,8 @@
             this.site_2.ResumeLayout(false);
             this.site_3.ResumeLayout(false);
             this.site_4.ResumeLayout(false);
-            this.site_5.ResumeLayout(false);
             this.site_6.ResumeLayout(false);
-            this.site_8.ResumeLayout(false);
-            this.site_9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -471,14 +388,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel site_4;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Panel site_5;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel site_6;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel site_8;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Panel site_9;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
