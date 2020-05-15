@@ -227,9 +227,9 @@
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
             this.Glava_2_Brand.Location = new System.Drawing.Point(180, 3);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(440, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(350, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "Глава 5: Дополнительные опции";
+            this.Glava_2_Brand.Text = "Глава 5: Дополнительные";
             // 
             // site_2
             // 
