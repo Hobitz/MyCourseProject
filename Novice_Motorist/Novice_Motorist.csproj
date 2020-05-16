@@ -202,12 +202,8 @@
     <None Include="Image\1x\carbody.jpg" />
     <None Include="Image\1x\types_body_cars.jpeg" />
     <None Include="Image\1x\picture_parking_device.jpg" />
-    <Content Include="Database\Database_Cars.mdf">
+    <Content Include="Database\Database.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database\Database_Cars_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database_Cars.mdf</DependentUpon>
     </Content>
     <Content Include="Database\Database_Cars_Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -219,12 +215,9 @@
       <DependentUpon>Database_Cars_Model.edmx</DependentUpon>
       <LastGenOutput>Database_Cars_Model.cs</LastGenOutput>
     </Content>
-    <Content Include="Database_Cars.mdf">
+    <Content Include="Database\Database_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database_Cars_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database_Cars.mdf</DependentUpon>
+      <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
