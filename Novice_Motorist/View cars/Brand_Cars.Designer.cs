@@ -143,6 +143,7 @@
             this.label.Size = new System.Drawing.Size(170, 33);
             this.label.TabIndex = 19;
             this.label.Text = "Volkswagen";
+            this.label.Click += new System.EventHandler(this.label_Click);
             this.label.MouseLeave += new System.EventHandler(this.label_MouseLeave);
             this.label.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
             // 
@@ -278,6 +279,7 @@
             this.Name = "Brand_Cars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Brand_Cars_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).EndInit();
