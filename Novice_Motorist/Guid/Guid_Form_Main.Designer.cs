@@ -118,6 +118,7 @@
             this.Glava_6_Options.Size = new System.Drawing.Size(491, 29);
             this.Glava_6_Options.TabIndex = 11;
             this.Glava_6_Options.Text = "Глава 5: Дополнительные опции машины";
+            this.Glava_6_Options.Click += new System.EventHandler(this.Glava_6_Options_Click);
             this.Glava_6_Options.MouseLeave += new System.EventHandler(this.Glava_1_Introduction_MouseLeave);
             this.Glava_6_Options.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Glava_1_Introduction_MouseMove);
             // 

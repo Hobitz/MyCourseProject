@@ -205,6 +205,7 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
+            this.button_next_glav.Click += new System.EventHandler(this.Button_next_glav_Click);
             // 
             // Button_Exit
             // 

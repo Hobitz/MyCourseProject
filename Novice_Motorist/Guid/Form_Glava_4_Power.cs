@@ -148,5 +148,19 @@ namespace Novice_Motorist
             Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             this.WndProc(ref m);
         }
+
+        private void Button_next_glav_Click(object sender, EventArgs e)
+        {
+            Form fg = new Form_Glava_5_ADDOption
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fg.StartPosition = FormStartPosition.Manual;
+            fg.Left = this.Left;
+            fg.Top = this.Top;
+            fg.Show();
+            this.Close();
+        }
     }
 }

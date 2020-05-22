@@ -32,7 +32,7 @@
             this.Guide_Button = new System.Windows.Forms.Button();
             this.Life_Hacks_Button = new System.Windows.Forms.Button();
             this.Express_Button = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_Brand_Cars = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Button_Hide = new System.Windows.Forms.PictureBox();
@@ -97,23 +97,24 @@
             this.Express_Button.Text = "Быстрый выбор";
             this.Express_Button.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // button_Brand_Cars
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(223, 138);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 78);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Виды машин";
-            this.button1.UseVisualStyleBackColor = false;
+            this.button_Brand_Cars.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.button_Brand_Cars.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Brand_Cars.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button_Brand_Cars.FlatAppearance.BorderSize = 0;
+            this.button_Brand_Cars.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button_Brand_Cars.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button_Brand_Cars.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Brand_Cars.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_Brand_Cars.ForeColor = System.Drawing.Color.White;
+            this.button_Brand_Cars.Location = new System.Drawing.Point(223, 138);
+            this.button_Brand_Cars.Name = "button_Brand_Cars";
+            this.button_Brand_Cars.Size = new System.Drawing.Size(201, 78);
+            this.button_Brand_Cars.TabIndex = 5;
+            this.button_Brand_Cars.Text = "Виды машин";
+            this.button_Brand_Cars.UseVisualStyleBackColor = false;
+            this.button_Brand_Cars.Click += new System.EventHandler(this.Button_Brand_Cars_Click);
             // 
             // label1
             // 
@@ -179,7 +180,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_Brand_Cars);
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.Controls.Add(this.Express_Button);
@@ -207,7 +208,7 @@
         private System.Windows.Forms.Button Express_Button;
         private System.Windows.Forms.PictureBox Exite_Application;
         private System.Windows.Forms.PictureBox Button_Hide;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_Brand_Cars;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
     }

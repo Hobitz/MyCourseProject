@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Novice_Motorist.View_cars;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -73,6 +74,17 @@ namespace Novice_Motorist
         private void PictureBox2_MouseLeave(object sender, EventArgs e)
         {
             pictureBox2.Image = Properties.Resources.Logotype;
+        }
+
+        private void Button_Brand_Cars_Click(object sender, EventArgs e)
+        {
+            Form fm = new Brand_Cars
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.Show();
+            this.Hide();
         }
     }
 }

@@ -99,6 +99,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
+            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -118,6 +119,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
+            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -161,6 +163,7 @@
             this.button_prev_glav.TabIndex = 15;
             this.button_prev_glav.Text = "К пред. главе";
             this.button_prev_glav.UseVisualStyleBackColor = false;
+            this.button_prev_glav.Click += new System.EventHandler(this.Button_prev_glav_Click);
             // 
             // button_next_glav
             // 
@@ -180,6 +183,7 @@
             this.button_next_glav.TabIndex = 16;
             this.button_next_glav.Text = "К след. главе";
             this.button_next_glav.UseVisualStyleBackColor = false;
+            this.button_next_glav.Click += new System.EventHandler(this.Button_next_glav_Click);
             // 
             // Button_Exit
             // 
@@ -193,6 +197,9 @@
             this.Button_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Exit.TabIndex = 14;
             this.Button_Exit.TabStop = false;
+            this.Button_Exit.Click += new System.EventHandler(this.Button_Exit_Click);
+            this.Button_Exit.MouseLeave += new System.EventHandler(this.Button_Exit_MouseLeave);
+            this.Button_Exit.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Exit_MouseMove);
             // 
             // Button_Hide
             // 
@@ -205,6 +212,9 @@
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Hide.TabIndex = 7;
             this.Button_Hide.TabStop = false;
+            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
+            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
+            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
             // Exite_Application
             // 
@@ -217,6 +227,9 @@
             this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Exite_Application.TabIndex = 6;
             this.Exite_Application.TabStop = false;
+            this.Exite_Application.Click += new System.EventHandler(this.Exite_Application_Click);
+            this.Exite_Application.MouseLeave += new System.EventHandler(this.Exite_Application_MouseLeave);
+            this.Exite_Application.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Exite_Application_MouseMove);
             // 
             // Glava_2_Brand
             // 
@@ -354,6 +367,7 @@
             this.Name = "Form_Glava_5_ADDOption";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Glava_5_ADDOption_MouseDown);
             this.site_1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).EndInit();
