@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Novice_Motorist.View_cars.Volkswagen;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,13 +25,13 @@ namespace Novice_Motorist.View_cars
             label4.Text = "/ " + Sites.Length.ToString();
         }
 
-        private void label9_MouseMove(object sender, MouseEventArgs e)
+        private void Label9_MouseMove(object sender, MouseEventArgs e)
         {
             var lavel = sender as Label;
             lavel.Font = new Font("Montserrat", 20, FontStyle.Bold);
         }
 
-        private void label9_MouseLeave(object sender, EventArgs e)
+        private void Label9_MouseLeave(object sender, EventArgs e)
         {
             var lavel = sender as Label;
             lavel.Font = new Font("Montserrat", 18, FontStyle.Bold);
@@ -90,7 +91,7 @@ namespace Novice_Motorist.View_cars
             Button_Hide.Image = Properties.Resources.Button_Hide;
         }
 
-        private void button_sites_back_Click(object sender, EventArgs e)
+        private void Button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -109,7 +110,7 @@ namespace Novice_Motorist.View_cars
             }
         }
 
-        private void button_sites_next_Click(object sender, EventArgs e)
+        private void Button_sites_next_Click(object sender, EventArgs e)
         {
             if (num == Sites.Length)
             {
@@ -133,6 +134,34 @@ namespace Novice_Motorist.View_cars
             base.Capture = false;
             Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             this.WndProc(ref m);
+        }
+
+        private void Label9_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Volkswagen_AtlasCrossSport
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Volkswagen_GolfAlltrack
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
         }
     }
 }

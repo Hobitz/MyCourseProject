@@ -111,11 +111,23 @@
     <Compile Include="View cars\Brand_Cars.Designer.cs">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </Compile>
-    <Compile Include="View cars\Form_Volkswagen_Cars.cs">
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_AtlasCrossSport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View cars\Form_Volkswagen_Cars.Designer.cs">
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_AtlasCrossSport.Designer.cs">
+      <DependentUpon>Form_Volkswagen_AtlasCrossSport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_Cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_Cars.Designer.cs">
       <DependentUpon>Form_Volkswagen_Cars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_GolfAlltrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_GolfAlltrack.Designer.cs">
+      <DependentUpon>Form_Volkswagen_GolfAlltrack.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Guid\Form_Glava_1_Introduction.resx">
       <DependentUpon>Form_Glava_1_Introduction.cs</DependentUpon>
@@ -146,8 +158,14 @@
     <EmbeddedResource Include="View cars\Brand_Cars.resx">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View cars\Form_Volkswagen_Cars.resx">
+    <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_AtlasCrossSport.resx">
+      <DependentUpon>Form_Volkswagen_AtlasCrossSport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Cars.resx">
       <DependentUpon>Form_Volkswagen_Cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_GolfAlltrack.resx">
+      <DependentUpon>Form_Volkswagen_GolfAlltrack.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -182,6 +200,10 @@
     <None Include="Image\1x\1x\1x\brand_mits.png" />
     <None Include="Image\1x\1x\1x\brand_ford.png" />
     <None Include="Image\1x\1x\1x\brand_citr.png" />
+    <None Include="Image\1x\Atlass_Cross.jpg" />
+    <None Include="Image\1x\Atlass_Cross_Interier.jpg" />
+    <None Include="Image\1x\Golf_Alltrack.jpg" />
+    <None Include="Image\1x\Golf_Alltrack_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

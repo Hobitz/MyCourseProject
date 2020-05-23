@@ -63,6 +63,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Atlass_Cross {
+            get {
+                object obj = ResourceManager.GetObject("Atlass_Cross", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Atlass_Cross_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Atlass_Cross_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bg_image {
             get {
                 object obj = ResourceManager.GetObject("bg_image", resourceCulture);
@@ -186,6 +206,26 @@ namespace Novice_Motorist.Properties {
         internal static System.Drawing.Bitmap carbody {
             get {
                 object obj = ResourceManager.GetObject("carbody", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Golf_Alltrack {
+            get {
+                object obj = ResourceManager.GetObject("Golf_Alltrack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Golf_Alltrack_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Golf_Alltrack_Interier", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

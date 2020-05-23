@@ -165,7 +165,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -185,7 +185,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -295,8 +295,8 @@
             this.label12.Size = new System.Drawing.Size(121, 33);
             this.label12.TabIndex = 23;
             this.label12.Text = "ARTEON";
-            this.label12.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
-            this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
+            this.label12.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
+            this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
             // label11
             // 
@@ -310,8 +310,8 @@
             this.label11.Size = new System.Drawing.Size(169, 33);
             this.label11.TabIndex = 22;
             this.label11.Text = "PASSAT GTE";
-            this.label11.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
-            this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
+            this.label11.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
+            this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
             // label10
             // 
@@ -325,8 +325,9 @@
             this.label10.Size = new System.Drawing.Size(224, 33);
             this.label10.TabIndex = 21;
             this.label10.Text = "GOLF ALLTRACK";
-            this.label10.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
-            this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.label10.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
+            this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
             // label9
             // 
@@ -340,8 +341,9 @@
             this.label9.Size = new System.Drawing.Size(281, 33);
             this.label9.TabIndex = 20;
             this.label9.Text = "ATLAS CROSS SPORT";
-            this.label9.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
-            this.label9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
+            this.label9.Click += new System.EventHandler(this.Label9_Click);
+            this.label9.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
+            this.label9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
             // label8
             // 

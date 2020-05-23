@@ -71,19 +71,19 @@ namespace Novice_Motorist.View_cars
             Button_Hide.Image = Properties.Resources.Button_Hide;
         }
 
-        private void label_MouseMove(object sender, MouseEventArgs e)
+        private void Label_MouseMove(object sender, MouseEventArgs e)
         {
             var lavel = sender as Label;
             lavel.Font = new Font("Montserrat", 20, FontStyle.Bold);
         }
 
-        private void label_MouseLeave(object sender, EventArgs e)
+        private void Label_MouseLeave(object sender, EventArgs e)
         {
             var lavel = sender as Label;
             lavel.Font = new Font("Montserrat", 18, FontStyle.Bold);
         }
 
-        private void label_Click(object sender, EventArgs e)
+        private void Label_Click(object sender, EventArgs e)
         {
             Form fm = new Form_Volkswagen_Cars
             {

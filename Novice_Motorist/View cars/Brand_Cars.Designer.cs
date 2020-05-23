@@ -143,9 +143,9 @@
             this.label.Size = new System.Drawing.Size(170, 33);
             this.label.TabIndex = 19;
             this.label.Text = "Volkswagen";
-            this.label.Click += new System.EventHandler(this.label_Click);
-            this.label.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label.Click += new System.EventHandler(this.Label_Click);
+            this.label.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // label1
             // 
@@ -159,8 +159,8 @@
             this.label1.Size = new System.Drawing.Size(137, 33);
             this.label1.TabIndex = 20;
             this.label1.Text = "Chevrolet";
-            this.label1.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label1.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // label2
             // 
@@ -174,8 +174,8 @@
             this.label2.Size = new System.Drawing.Size(55, 33);
             this.label2.TabIndex = 21;
             this.label2.Text = "Kia";
-            this.label2.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label2.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // button_Mits
             // 
@@ -219,8 +219,8 @@
             this.label3.Size = new System.Drawing.Size(145, 33);
             this.label3.TabIndex = 25;
             this.label3.Text = "Mitsubishi";
-            this.label3.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label3.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // label4
             // 
@@ -234,8 +234,8 @@
             this.label4.Size = new System.Drawing.Size(73, 33);
             this.label4.TabIndex = 26;
             this.label4.Text = "Ford";
-            this.label4.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label4.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // label5
             // 
@@ -249,8 +249,8 @@
             this.label5.Size = new System.Drawing.Size(108, 33);
             this.label5.TabIndex = 27;
             this.label5.Text = "Citroen";
-            this.label5.MouseLeave += new System.EventHandler(this.label_MouseLeave);
-            this.label5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label_MouseMove);
+            this.label5.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
+            this.label5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 
             // Brand_Cars
             // 
