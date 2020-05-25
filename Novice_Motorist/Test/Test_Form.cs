@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,11 +21,11 @@ namespace Novice_Motorist.Test
             {
                 ImageSize = new Size(50, 50)
             };
-            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
-            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Golf_Alltrack.jpg"));
-            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
-            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Golf_Alltrack.jpg"));
-            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Golf_Alltrack.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Golf_Alltrack.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
             listView1.LargeImageList = imgList;
 
                 for (int i = 0; i < type.Length; i++)
