@@ -12,17 +12,33 @@ namespace Novice_Motorist.Test
 {
     public partial class Test_Form : Form
     {
-        
+        public int[] getter;
         public void GetSelectedCars(int[] type)
         {
-            for (int i =0;i<type.Length;i++)
+            listView1.Items.Clear();
+            ImageList imgList = new ImageList
             {
-                label2.Text += modelCar[type[i]].ToString() + " ";
-            }
+                ImageSize = new Size(50, 50)
+            };
+            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
+            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Golf_Alltrack.jpg"));
+            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
+            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Golf_Alltrack.jpg"));
+            imgList.Images.Add(Image.FromFile("../source/repos/Hobitz/MyCourseProject/Novice_Motorist/Image/1x/Atlass_Cross.jpg"));
+            listView1.LargeImageList = imgList;
+
+                for (int i = 0; i < type.Length; i++)
+                {
+                ListViewItem viewItem = new ListViewItem(new string[] { "", modelCar[getter[i]], speedCar[getter[i]] })
+                {
+                    ImageIndex = i
+                };
+                listView1.Items.Add(viewItem);
+                }
         }
         public int[] GetTypesModel(string type)
         {
-            
+
             List<int> result = new List<int>();
             for (int i = 0; i < speedCar.Length; i++)
             {
@@ -33,10 +49,8 @@ namespace Novice_Motorist.Test
             }
             return result.ToArray();
         }
-
-        public readonly string[] modelCar = { "БМВ", "WoltsWagen", "Rehno", "Mersedes", "Audi" };
-        public readonly string[] speedCar = { "Быстрая", "Средняя", "Медленная", "Средняя", "Быстрая" };
-        public int[] getter;
+        readonly string[] modelCar = { "БМВ", "WoltsWagen", "Rehno", "Mersedes", "Audi" };
+        readonly string[] speedCar = { "Быстрая", "Средняя", "Медленная", "Средняя", "Быстрая" };        
         public Test_Form()
         {
             InitializeComponent();

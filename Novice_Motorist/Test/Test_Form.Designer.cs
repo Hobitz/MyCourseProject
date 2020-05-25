@@ -41,7 +41,10 @@
             this.Button_Speed_Low = new System.Windows.Forms.Button();
             this.Glava_2_Brand = new System.Windows.Forms.Label();
             this.site_finish = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.ImageCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nameBrandCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.speedCars = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
@@ -227,21 +230,40 @@
             // site_finish
             // 
             this.site_finish.BackColor = System.Drawing.Color.White;
-            this.site_finish.Controls.Add(this.label2);
+            this.site_finish.Controls.Add(this.listView1);
             this.site_finish.Location = new System.Drawing.Point(27, 46);
             this.site_finish.Name = "site_finish";
             this.site_finish.Size = new System.Drawing.Size(740, 364);
             this.site_finish.TabIndex = 12;
             // 
-            // label2
+            // listView1
             // 
-            this.label2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label2.Location = new System.Drawing.Point(34, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(690, 316);
-            this.label2.TabIndex = 0;
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ImageCar,
+            this.nameBrandCar,
+            this.speedCars});
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(0, -1);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(741, 365);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            // 
+            // ImageCar
+            // 
+            this.ImageCar.Text = "Image";
+            this.ImageCar.Width = 146;
+            // 
+            // nameBrandCar
+            // 
+            this.nameBrandCar.Text = "Brand";
+            this.nameBrandCar.Width = 182;
+            // 
+            // speedCars
+            // 
+            this.speedCars.Text = "Speed";
+            this.speedCars.Width = 203;
             // 
             // Test_Form
             // 
@@ -288,6 +310,9 @@
         private System.Windows.Forms.Button Button_Speed_Low;
         private System.Windows.Forms.Label Glava_2_Brand;
         private System.Windows.Forms.Panel site_finish;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader ImageCar;
+        private System.Windows.Forms.ColumnHeader nameBrandCar;
+        private System.Windows.Forms.ColumnHeader speedCars;
     }
 }
