@@ -12,20 +12,21 @@ namespace Novice_Motorist.Test
 {
     public partial class Test_Form : Form
     {
-        public static void GetSelectedCars(int[] type)
+        
+        public void GetSelectedCars(int[] type)
         {
-            foreach (var t in type)
+            for (int i =0;i<type.Length;i++)
             {
-                Test_Form.label2.Text += t.ToString() + " ";
+                label2.Text += modelCar[type[i]].ToString() + " ";
             }
         }
-        public static int[] GetTypesModel(string type)
+        public int[] GetTypesModel(string type)
         {
-            Test_Form pr = new Test_Form();
+            
             List<int> result = new List<int>();
-            for (int i = 0; i < pr.model.Length; i++)
+            for (int i = 0; i < speedCar.Length; i++)
             {
-                if (pr.type[i] == type)
+                if (speedCar[i] == type)
                 {
                     result.Add(i);
                 }
@@ -33,19 +34,21 @@ namespace Novice_Motorist.Test
             return result.ToArray();
         }
 
-        public readonly string[] model = { "БМВ", "WoltsWagen", "Rehno", "Mersedes", "Audi" };
-        public readonly string[] type = { "Быстрая", "Средняя", "Медленная", "Средняя", "Быстрая" };
+        public readonly string[] modelCar = { "БМВ", "WoltsWagen", "Rehno", "Mersedes", "Audi" };
+        public readonly string[] speedCar = { "Быстрая", "Средняя", "Медленная", "Средняя", "Быстрая" };
         public int[] getter;
         public Test_Form()
         {
             InitializeComponent();
-            site_2.Visible = false;;
+            site_2.Visible = false;
+            site_finish.Visible = false;
+
         }
 
         private void Button_Start_Test_Click(object sender, EventArgs e)
         {
             site_1.Visible = false;
-            site_2.Visible = false;
+            site_2.Visible = true;
         }
 
         private void Button_Exit_Click(object sender, EventArgs e)
@@ -79,12 +82,13 @@ namespace Novice_Motorist.Test
 
         private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back;
+        
+            Exite_Application.Image = Properties.Resources.Button_Back_Move;
         }
 
         private void Exite_Application_MouseLeave(object sender, EventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+            Exite_Application.Image = Properties.Resources.Button_Back;
         }
 
         private void Button_Hide_Click(object sender, EventArgs e)
@@ -114,6 +118,8 @@ namespace Novice_Motorist.Test
             string type = "Медленная";
             this.getter = GetTypesModel(type);
             GetSelectedCars(getter);
+            site_2.Visible = false;
+            site_finish.Visible = true;
         }
 
         private void Button_Speed_Average_Click(object sender, EventArgs e)
@@ -121,6 +127,8 @@ namespace Novice_Motorist.Test
             string type = "Средняя";
             this.getter = GetTypesModel(type);
             GetSelectedCars(getter);
+            site_2.Visible = false;
+            site_finish.Visible = true;
         }
 
         private void Button_Speed_High_Click(object sender, EventArgs e)
@@ -128,6 +136,8 @@ namespace Novice_Motorist.Test
             string type = "Быстрая";
             this.getter = GetTypesModel(type);
             GetSelectedCars(getter);
+            site_2.Visible = false;
+            site_finish.Visible = true;
         }
     }
 }

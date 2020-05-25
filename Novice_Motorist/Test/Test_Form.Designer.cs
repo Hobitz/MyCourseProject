@@ -40,14 +40,14 @@
             this.Button_Speed_Average = new System.Windows.Forms.Button();
             this.Button_Speed_Low = new System.Windows.Forms.Button();
             this.Glava_2_Brand = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.site_finish = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).BeginInit();
             this.site_2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.site_finish.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button_Hide
@@ -224,20 +224,20 @@
             this.Glava_2_Brand.TabIndex = 18;
             this.Glava_2_Brand.Text = "Какую скорость ваш транспорт должен развивать?";
             // 
-            // panel1
+            // site_finish
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(27, 46);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(740, 364);
-            this.panel1.TabIndex = 12;
+            this.site_finish.BackColor = System.Drawing.Color.White;
+            this.site_finish.Controls.Add(this.label2);
+            this.site_finish.Location = new System.Drawing.Point(27, 46);
+            this.site_finish.Name = "site_finish";
+            this.site_finish.Size = new System.Drawing.Size(740, 364);
+            this.site_finish.TabIndex = 12;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(98)))), ((int)(((byte)(107)))));
-            this.label2.Location = new System.Drawing.Point(18, 22);
+            this.label2.Location = new System.Drawing.Point(34, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(690, 316);
             this.label2.TabIndex = 0;
@@ -252,7 +252,7 @@
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Exite_Application);
             this.Controls.Add(this.Button_Exit);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.site_finish);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
             this.Controls.Add(this.Button_Hide);
@@ -268,7 +268,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).EndInit();
             this.site_2.ResumeLayout(false);
             this.site_2.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.site_finish.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,7 +287,7 @@
         private System.Windows.Forms.Button Button_Speed_Average;
         private System.Windows.Forms.Button Button_Speed_Low;
         private System.Windows.Forms.Label Glava_2_Brand;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel site_finish;
         private System.Windows.Forms.Label label2;
     }
 }
