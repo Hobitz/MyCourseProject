@@ -1,4 +1,5 @@
-﻿using Novice_Motorist.View_cars;
+﻿using Novice_Motorist.Test;
+using Novice_Motorist.View_cars;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,6 +80,17 @@ namespace Novice_Motorist
         private void Button_Brand_Cars_Click(object sender, EventArgs e)
         {
             Form fm = new Brand_Cars
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.Show();
+            this.Hide();
+        }
+
+        private void Express_Button_Click(object sender, EventArgs e)
+        {
+            Form fm = new Test_Form
             {
                 Left = this.Left,
                 Top = this.Top

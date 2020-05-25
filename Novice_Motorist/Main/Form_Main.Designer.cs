@@ -96,6 +96,7 @@
             this.Express_Button.TabIndex = 2;
             this.Express_Button.Text = "Быстрый выбор";
             this.Express_Button.UseVisualStyleBackColor = false;
+            this.Express_Button.Click += new System.EventHandler(this.Express_Button_Click);
             // 
             // button_Brand_Cars
             // 
