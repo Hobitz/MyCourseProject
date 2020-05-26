@@ -14,28 +14,28 @@ namespace Novice_Motorist.Test
     public partial class Test_Form : Form
     {
         public int[] getter;
-        public void GetSelectedCars(int[] type)
+        public void GetSelectedCars()
         {
             listView1.Items.Clear();
             ImageList imgList = new ImageList
             {
-                ImageSize = new Size(50, 50)
+                ImageSize = new Size(250, 150)
             };
-            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
-            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Golf_Alltrack.jpg")));
-            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
-            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Golf_Alltrack.jpg")));
-            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Atlass_Cross.jpg")));
-            listView1.LargeImageList = imgList;
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Test_Cars/1.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Test_Cars/2.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Test_Cars/3.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Test_Cars/4.jpg")));
+            imgList.Images.Add(Image.FromFile(Path.GetFullPath("../../Image/1x/Test_Cars/5.jpg")));
+            this.listView1.SmallImageList = imgList;
 
-                for (int i = 0; i < type.Length; i++)
+            for (int j = 0; j < getter.Length; j++)
+            {
+                ListViewItem item = new ListViewItem(new string[] { "", brandCar[getter[j]], modelCar[getter[j]] })
                 {
-                ListViewItem viewItem = new ListViewItem(new string[] { "", modelCar[getter[i]], speedCar[getter[i]] })
-                {
-                    ImageIndex = i
+                    ImageIndex = getter[j]
                 };
-                listView1.Items.Add(viewItem);
-                }
+                this.listView1.Items.Add(item);
+            }
         }
         public int[] GetTypesModel(string type)
         {
@@ -50,8 +50,9 @@ namespace Novice_Motorist.Test
             }
             return result.ToArray();
         }
-        readonly string[] modelCar = { "БМВ", "WoltsWagen", "Rehno", "Mersedes", "Audi" };
-        readonly string[] speedCar = { "Быстрая", "Средняя", "Медленная", "Средняя", "Быстрая" };        
+        readonly string[] brandCar = { "BMW", "Volkswagen", "Renault", "Mersedes-Benz", "Audi" };
+        readonly string[] modelCar = { "BMW M6 GRAN COUPE", "GOLF ALLTRACK", "RENAULT EZ-ULTIMO", "GLB", "E-TRON" };
+        readonly string[] speedCar = { "Быстрая", "Средняя", "Медленная", "Средняя", "Средняя" };
         public Test_Form()
         {
             InitializeComponent();
@@ -97,7 +98,7 @@ namespace Novice_Motorist.Test
 
         private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
         {
-        
+
             Exite_Application.Image = Properties.Resources.Button_Back_Move;
         }
 
@@ -132,7 +133,7 @@ namespace Novice_Motorist.Test
         {
             string type = "Медленная";
             this.getter = GetTypesModel(type);
-            GetSelectedCars(getter);
+            GetSelectedCars();
             site_2.Visible = false;
             site_finish.Visible = true;
         }
@@ -141,7 +142,7 @@ namespace Novice_Motorist.Test
         {
             string type = "Средняя";
             this.getter = GetTypesModel(type);
-            GetSelectedCars(getter);
+            GetSelectedCars();
             site_2.Visible = false;
             site_finish.Visible = true;
         }
@@ -150,9 +151,10 @@ namespace Novice_Motorist.Test
         {
             string type = "Быстрая";
             this.getter = GetTypesModel(type);
-            GetSelectedCars(getter);
+            GetSelectedCars();
             site_2.Visible = false;
             site_finish.Visible = true;
         }
     }
 }
+

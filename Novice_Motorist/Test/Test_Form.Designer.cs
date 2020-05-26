@@ -44,7 +44,7 @@
             this.listView1 = new System.Windows.Forms.ListView();
             this.ImageCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nameBrandCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.speedCars = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nameModelCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
@@ -238,10 +238,13 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.White;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ImageCar,
             this.nameBrandCar,
-            this.speedCars});
+            this.nameModelCar});
+            this.listView1.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listView1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, -1);
             this.listView1.Name = "listView1";
@@ -253,17 +256,17 @@
             // ImageCar
             // 
             this.ImageCar.Text = "Image";
-            this.ImageCar.Width = 146;
+            this.ImageCar.Width = 250;
             // 
             // nameBrandCar
             // 
             this.nameBrandCar.Text = "Brand";
-            this.nameBrandCar.Width = 182;
+            this.nameBrandCar.Width = 200;
             // 
-            // speedCars
+            // nameModelCar
             // 
-            this.speedCars.Text = "Speed";
-            this.speedCars.Width = 203;
+            this.nameModelCar.Text = "Model";
+            this.nameModelCar.Width = 250;
             // 
             // Test_Form
             // 
@@ -313,6 +316,6 @@
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader ImageCar;
         private System.Windows.Forms.ColumnHeader nameBrandCar;
-        private System.Windows.Forms.ColumnHeader speedCars;
+        private System.Windows.Forms.ColumnHeader nameModelCar;
     }
 }
