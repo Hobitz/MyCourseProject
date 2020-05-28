@@ -121,11 +121,14 @@
   <data name="brand_mits" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\1x\1x\brand_mits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Passat_GTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Passat_GTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Golf_Alltrack_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Golf_Alltrack_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Golf_Alltrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Golf_Alltrack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Button_Exite_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Exite_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="carbody" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\carbody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,6 +160,9 @@
   <data name="Atlass_Cross_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Atlass_Cross_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Passat_GTE_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Passat_GTE_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -169,8 +175,14 @@
   <data name="types_body_cars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\types_body_cars.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Arteon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Arteon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Atlass_Cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Atlass_Cross.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Exite_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Exite_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="novicedriver_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\novicedriver_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,7 +193,7 @@
   <data name="brand_citr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\1x\1x\brand_citr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Golf_Alltrack_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Golf_Alltrack_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Arteon_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Arteon_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

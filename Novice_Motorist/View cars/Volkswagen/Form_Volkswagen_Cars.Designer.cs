@@ -295,6 +295,7 @@
             this.label12.Size = new System.Drawing.Size(121, 33);
             this.label12.TabIndex = 23;
             this.label12.Text = "ARTEON";
+            this.label12.Click += new System.EventHandler(this.Label12_Click);
             this.label12.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -310,6 +311,7 @@
             this.label11.Size = new System.Drawing.Size(169, 33);
             this.label11.TabIndex = 22;
             this.label11.Text = "PASSAT GTE";
+            this.label11.Click += new System.EventHandler(this.Label11_Click);
             this.label11.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -325,7 +327,7 @@
             this.label10.Size = new System.Drawing.Size(224, 33);
             this.label10.TabIndex = 21;
             this.label10.Text = "GOLF ALLTRACK";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.label10.Click += new System.EventHandler(this.Label10_Click);
             this.label10.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 

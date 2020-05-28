@@ -110,6 +110,12 @@
     <Compile Include="View cars\Brand_Cars.Designer.cs">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_Arteon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_Arteon.Designer.cs">
+      <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
+    </Compile>
     <Compile Include="View cars\Volkswagen\Form_Volkswagen_AtlasCrossSport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,12 @@
     </Compile>
     <Compile Include="View cars\Volkswagen\Form_Volkswagen_GolfAlltrack.Designer.cs">
       <DependentUpon>Form_Volkswagen_GolfAlltrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_PassatGTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Volkswagen\Form_Volkswagen_PassatGTE.Designer.cs">
+      <DependentUpon>Form_Volkswagen_PassatGTE.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Guid\Form_Glava_1_Introduction.resx">
       <DependentUpon>Form_Glava_1_Introduction.cs</DependentUpon>
@@ -160,6 +172,9 @@
     <EmbeddedResource Include="View cars\Brand_Cars.resx">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Arteon.resx">
+      <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_AtlasCrossSport.resx">
       <DependentUpon>Form_Volkswagen_AtlasCrossSport.cs</DependentUpon>
     </EmbeddedResource>
@@ -168,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_GolfAlltrack.resx">
       <DependentUpon>Form_Volkswagen_GolfAlltrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_PassatGTE.resx">
+      <DependentUpon>Form_Volkswagen_PassatGTE.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -205,6 +223,10 @@
     <None Include="Image\1x\Atlass_Cross_Interier.jpg" />
     <None Include="Image\1x\Golf_Alltrack.jpg" />
     <None Include="Image\1x\Golf_Alltrack_Interier.jpg" />
+    <None Include="Image\1x\Passat_GTE.jpg" />
+    <None Include="Image\1x\Passat_GTE_Interier.jpg" />
+    <None Include="Image\1x\Arteon.jpg" />
+    <None Include="Image\1x\Arteon_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

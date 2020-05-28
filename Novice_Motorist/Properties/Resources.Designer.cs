@@ -63,6 +63,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arteon {
+            get {
+                object obj = ResourceManager.GetObject("Arteon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Arteon_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Arteon_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Atlass_Cross {
             get {
                 object obj = ResourceManager.GetObject("Atlass_Cross", resourceCulture);
@@ -256,6 +276,26 @@ namespace Novice_Motorist.Properties {
         internal static System.Drawing.Bitmap novicedriver_black {
             get {
                 object obj = ResourceManager.GetObject("novicedriver_black", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Passat_GTE {
+            get {
+                object obj = ResourceManager.GetObject("Passat_GTE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Passat_GTE_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Passat_GTE_Interier", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -45,12 +45,17 @@
             this.ImageCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nameBrandCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.nameModelCar = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.site_3 = new System.Windows.Forms.Panel();
+            this.Input_Field_site_3 = new System.Windows.Forms.TextBox();
+            this.Button_Place_Car = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Exite_Application)).BeginInit();
             this.site_2.SuspendLayout();
             this.site_finish.SuspendLayout();
+            this.site_3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button_Hide
@@ -238,14 +243,18 @@
             // 
             // listView1
             // 
-            this.listView1.BackColor = System.Drawing.Color.White;
+            this.listView1.Alignment = System.Windows.Forms.ListViewAlignment.Default;
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ImageCar,
             this.nameBrandCar,
             this.nameModelCar});
             this.listView1.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listView1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.listView1.ForeColor = System.Drawing.Color.White;
+            this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.listView1.HideSelection = false;
+            this.listView1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.listView1.Location = new System.Drawing.Point(0, -1);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(741, 365);
@@ -261,12 +270,69 @@
             // nameBrandCar
             // 
             this.nameBrandCar.Text = "Brand";
-            this.nameBrandCar.Width = 200;
+            this.nameBrandCar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nameBrandCar.Width = 235;
             // 
             // nameModelCar
             // 
             this.nameModelCar.Text = "Model";
-            this.nameModelCar.Width = 250;
+            this.nameModelCar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nameModelCar.Width = 235;
+            // 
+            // site_3
+            // 
+            this.site_3.BackColor = System.Drawing.Color.White;
+            this.site_3.Controls.Add(this.Input_Field_site_3);
+            this.site_3.Controls.Add(this.Button_Place_Car);
+            this.site_3.Controls.Add(this.label2);
+            this.site_3.Location = new System.Drawing.Point(27, 45);
+            this.site_3.Name = "site_3";
+            this.site_3.Size = new System.Drawing.Size(740, 364);
+            this.site_3.TabIndex = 13;
+            // 
+            // Input_Field_site_3
+            // 
+            this.Input_Field_site_3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Input_Field_site_3.Location = new System.Drawing.Point(303, 176);
+            this.Input_Field_site_3.MaxLength = 2;
+            this.Input_Field_site_3.Name = "Input_Field_site_3";
+            this.Input_Field_site_3.Size = new System.Drawing.Size(100, 34);
+            this.Input_Field_site_3.TabIndex = 21;
+            this.Input_Field_site_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.Input_Field_site_3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_Field_KeyPress);
+            // 
+            // Button_Place_Car
+            // 
+            this.Button_Place_Car.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_Place_Car.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Place_Car.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Place_Car.FlatAppearance.BorderSize = 0;
+            this.Button_Place_Car.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Place_Car.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Place_Car.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Place_Car.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Place_Car.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_Place_Car.ForeColor = System.Drawing.Color.White;
+            this.Button_Place_Car.Location = new System.Drawing.Point(277, 225);
+            this.Button_Place_Car.Name = "Button_Place_Car";
+            this.Button_Place_Car.Size = new System.Drawing.Size(152, 74);
+            this.Button_Place_Car.TabIndex = 20;
+            this.Button_Place_Car.Text = "Принять";
+            this.Button_Place_Car.UseVisualStyleBackColor = false;
+            this.Button_Place_Car.Click += new System.EventHandler(this.Button_Place_Car_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label2.Location = new System.Drawing.Point(21, 101);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(703, 33);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Сколько людей вы хотите везти на своём мустанге?";
             // 
             // Test_Form
             // 
@@ -277,6 +343,7 @@
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Exite_Application);
             this.Controls.Add(this.Button_Exit);
+            this.Controls.Add(this.site_3);
             this.Controls.Add(this.site_finish);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
@@ -294,6 +361,8 @@
             this.site_2.ResumeLayout(false);
             this.site_2.PerformLayout();
             this.site_finish.ResumeLayout(false);
+            this.site_3.ResumeLayout(false);
+            this.site_3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,5 +386,9 @@
         private System.Windows.Forms.ColumnHeader ImageCar;
         private System.Windows.Forms.ColumnHeader nameBrandCar;
         private System.Windows.Forms.ColumnHeader nameModelCar;
+        private System.Windows.Forms.Panel site_3;
+        private System.Windows.Forms.Button Button_Place_Car;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox Input_Field_site_3;
     }
 }

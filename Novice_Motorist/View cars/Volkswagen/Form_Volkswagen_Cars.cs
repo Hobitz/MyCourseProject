@@ -150,9 +150,37 @@ namespace Novice_Motorist.View_cars
             this.Close();
         }
 
-        private void label10_Click(object sender, EventArgs e)
+        private void Label10_Click(object sender, EventArgs e)
         {
             Form fm = new Form_Volkswagen_GolfAlltrack
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void Label11_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Volkswagen_PassatGTE
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void Label12_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Volkswagen_Arteon
             {
                 Left = this.Left,
                 Top = this.Top
