@@ -110,6 +110,18 @@
     <Compile Include="View cars\Brand_Cars.Designer.cs">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Cars.Designer.cs">
+      <DependentUpon>Form_Ford_Cars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Focus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Focus.Designer.cs">
+      <DependentUpon>Form_Ford_Focus.cs</DependentUpon>
+    </Compile>
     <Compile Include="View cars\Volkswagen\Form_Volkswagen_Arteon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +184,12 @@
     <EmbeddedResource Include="View cars\Brand_Cars.resx">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Ford\Form_Ford_Cars.resx">
+      <DependentUpon>Form_Ford_Cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Ford\Form_Ford_Focus.resx">
+      <DependentUpon>Form_Ford_Focus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Arteon.resx">
       <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
     </EmbeddedResource>
@@ -206,7 +224,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
@@ -227,6 +244,8 @@
     <None Include="Image\1x\Passat_GTE_Interier.jpg" />
     <None Include="Image\1x\Arteon.jpg" />
     <None Include="Image\1x\Arteon_Interier.jpg" />
+    <None Include="Image\1x\Focus.jpg" />
+    <None Include="Image\1x\Focus_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

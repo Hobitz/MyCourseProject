@@ -233,6 +233,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Focus {
+            get {
+                object obj = ResourceManager.GetObject("Focus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Focus_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Focus_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Golf_Alltrack {
             get {
                 object obj = ResourceManager.GetObject("Golf_Alltrack", resourceCulture);

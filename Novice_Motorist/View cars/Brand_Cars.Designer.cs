@@ -234,6 +234,7 @@
             this.label4.Size = new System.Drawing.Size(73, 33);
             this.label4.TabIndex = 26;
             this.label4.Text = "Ford";
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
             this.label4.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
             this.label4.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 

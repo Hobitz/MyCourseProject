@@ -118,41 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="brand_mits" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\1x\1x\brand_mits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Passat_GTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Passat_GTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Golf_Alltrack_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Golf_Alltrack_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Golf_Alltrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Golf_Alltrack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="carbody" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\carbody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Button_Hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brand_kia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\1x\1x\brand_kia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bg_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\bg_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_Exite_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Exite_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Hide_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Button_Hide_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Golf_Alltrack_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Golf_Alltrack_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo_auto_volkswagen_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\1x\logo_auto_volkswagen_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Hide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="picture_parking_device" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\picture_parking_device.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Exite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Exite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Arteon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Arteon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\bg_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Passat_GTE_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Passat_GTE_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brand_mits" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\1x\1x\brand_mits.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="novicedriver_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\novicedriver_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Golf_Alltrack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Golf_Alltrack.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brand_chev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\1x\1x\brand_chev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Focus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Logotype" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Logotype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,32 +169,17 @@
   <data name="Atlass_Cross_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Atlass_Cross_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Passat_GTE_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Passat_GTE_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Button_Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brand_chev" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\1x\1x\brand_chev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="brand_ford" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\1x\1x\brand_ford.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="types_body_cars" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\types_body_cars.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Arteon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Arteon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Atlass_Cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Atlass_Cross.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Exite_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\Button_Exite_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Passat_GTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Passat_GTE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="novicedriver_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Image\1x\novicedriver_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_Exite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Button_Exite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Back_Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Button_Back_Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,7 +187,19 @@
   <data name="brand_citr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\1x\1x\brand_citr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="carbody" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\carbody.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brand_kia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\1x\1x\brand_kia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brand_ford" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\1x\1x\brand_ford.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Arteon_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Image\1x\Arteon_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Focus_Interier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Image\1x\Focus_Interier.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

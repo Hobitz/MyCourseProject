@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Novice_Motorist.View_cars.Ford;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -102,6 +103,20 @@ namespace Novice_Motorist.View_cars
             base.Capture = false;
             Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             this.WndProc(ref m);
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Ford_Cars
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
         }
     }
 }
