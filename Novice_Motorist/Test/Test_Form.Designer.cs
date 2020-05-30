@@ -49,6 +49,10 @@
             this.Input_Field_site_3 = new System.Windows.Forms.TextBox();
             this.Button_Place_Car = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.site_4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
@@ -56,6 +60,7 @@
             this.site_2.SuspendLayout();
             this.site_finish.SuspendLayout();
             this.site_3.SuspendLayout();
+            this.site_4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button_Hide
@@ -334,6 +339,60 @@
             this.label2.TabIndex = 18;
             this.label2.Text = "Сколько людей вы хотите везти на своём мустанге?";
             // 
+            // site_4
+            // 
+            this.site_4.BackColor = System.Drawing.Color.White;
+            this.site_4.Controls.Add(this.radioButton1);
+            this.site_4.Controls.Add(this.button1);
+            this.site_4.Controls.Add(this.label3);
+            this.site_4.Location = new System.Drawing.Point(27, 46);
+            this.site_4.Name = "site_4";
+            this.site_4.Size = new System.Drawing.Size(740, 364);
+            this.site_4.TabIndex = 22;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(277, 225);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 74);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Принять";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label3.Location = new System.Drawing.Point(10, 101);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(721, 33);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Какой тип кузова соотвествует вашим требованиям?";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(303, 170);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 21;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Test_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -343,8 +402,9 @@
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Exite_Application);
             this.Controls.Add(this.Button_Exit);
-            this.Controls.Add(this.site_3);
+            this.Controls.Add(this.site_4);
             this.Controls.Add(this.site_finish);
+            this.Controls.Add(this.site_3);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
             this.Controls.Add(this.Button_Hide);
@@ -363,6 +423,8 @@
             this.site_finish.ResumeLayout(false);
             this.site_3.ResumeLayout(false);
             this.site_3.PerformLayout();
+            this.site_4.ResumeLayout(false);
+            this.site_4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,5 +452,9 @@
         private System.Windows.Forms.Button Button_Place_Car;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox Input_Field_site_3;
+        private System.Windows.Forms.Panel site_4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
