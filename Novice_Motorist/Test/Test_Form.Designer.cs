@@ -50,9 +50,22 @@
             this.Button_Place_Car = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.site_4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.answer_3 = new System.Windows.Forms.RadioButton();
+            this.answer_2 = new System.Windows.Forms.RadioButton();
+            this.answer_1 = new System.Windows.Forms.RadioButton();
+            this.Button_Body_Car = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.site_5 = new System.Windows.Forms.Panel();
+            this.answer_three = new System.Windows.Forms.RadioButton();
+            this.answer_two = new System.Windows.Forms.RadioButton();
+            this.answer_one = new System.Windows.Forms.RadioButton();
+            this.Button_Fuel_Car = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.site_6 = new System.Windows.Forms.Panel();
+            this.Button_FrontWheel = new System.Windows.Forms.Button();
+            this.Button_FullWheels = new System.Windows.Forms.Button();
+            this.Button_RearWheel = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Exit)).BeginInit();
@@ -61,6 +74,8 @@
             this.site_finish.SuspendLayout();
             this.site_3.SuspendLayout();
             this.site_4.SuspendLayout();
+            this.site_5.SuspendLayout();
+            this.site_6.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button_Hide
@@ -342,32 +357,80 @@
             // site_4
             // 
             this.site_4.BackColor = System.Drawing.Color.White;
-            this.site_4.Controls.Add(this.radioButton1);
-            this.site_4.Controls.Add(this.button1);
+            this.site_4.Controls.Add(this.answer_3);
+            this.site_4.Controls.Add(this.answer_2);
+            this.site_4.Controls.Add(this.answer_1);
+            this.site_4.Controls.Add(this.Button_Body_Car);
             this.site_4.Controls.Add(this.label3);
             this.site_4.Location = new System.Drawing.Point(27, 46);
             this.site_4.Name = "site_4";
             this.site_4.Size = new System.Drawing.Size(740, 364);
             this.site_4.TabIndex = 22;
             // 
-            // button1
+            // answer_3
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(277, 225);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(152, 74);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Принять";
-            this.button1.UseVisualStyleBackColor = false;
+            this.answer_3.AutoSize = true;
+            this.answer_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_3.ForeColor = System.Drawing.Color.Gray;
+            this.answer_3.Location = new System.Drawing.Point(289, 175);
+            this.answer_3.Name = "answer_3";
+            this.answer_3.Size = new System.Drawing.Size(173, 30);
+            this.answer_3.TabIndex = 25;
+            this.answer_3.TabStop = true;
+            this.answer_3.Text = "Внедорожник";
+            this.answer_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_3.UseVisualStyleBackColor = true;
+            // 
+            // answer_2
+            // 
+            this.answer_2.AutoSize = true;
+            this.answer_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_2.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_2.ForeColor = System.Drawing.Color.Gray;
+            this.answer_2.Location = new System.Drawing.Point(289, 141);
+            this.answer_2.Name = "answer_2";
+            this.answer_2.Size = new System.Drawing.Size(92, 30);
+            this.answer_2.TabIndex = 23;
+            this.answer_2.TabStop = true;
+            this.answer_2.Text = "Седан";
+            this.answer_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_2.UseVisualStyleBackColor = true;
+            // 
+            // answer_1
+            // 
+            this.answer_1.AutoSize = true;
+            this.answer_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_1.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_1.ForeColor = System.Drawing.Color.Gray;
+            this.answer_1.Location = new System.Drawing.Point(289, 105);
+            this.answer_1.Name = "answer_1";
+            this.answer_1.Size = new System.Drawing.Size(140, 30);
+            this.answer_1.TabIndex = 21;
+            this.answer_1.TabStop = true;
+            this.answer_1.Text = "Универсал";
+            this.answer_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_1.UseVisualStyleBackColor = true;
+            // 
+            // Button_Body_Car
+            // 
+            this.Button_Body_Car.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_Body_Car.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Body_Car.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Body_Car.FlatAppearance.BorderSize = 0;
+            this.Button_Body_Car.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Body_Car.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Body_Car.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Body_Car.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Body_Car.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_Body_Car.ForeColor = System.Drawing.Color.White;
+            this.Button_Body_Car.Location = new System.Drawing.Point(312, 215);
+            this.Button_Body_Car.Name = "Button_Body_Car";
+            this.Button_Body_Car.Size = new System.Drawing.Size(152, 74);
+            this.Button_Body_Car.TabIndex = 20;
+            this.Button_Body_Car.Text = "Принять";
+            this.Button_Body_Car.UseVisualStyleBackColor = false;
+            this.Button_Body_Car.Click += new System.EventHandler(this.Button_Body_Car_Click);
             // 
             // label3
             // 
@@ -376,22 +439,187 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.label3.Location = new System.Drawing.Point(10, 101);
+            this.label3.Location = new System.Drawing.Point(4, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(721, 33);
             this.label3.TabIndex = 18;
             this.label3.Text = "Какой тип кузова соотвествует вашим требованиям?";
             // 
-            // radioButton1
+            // site_5
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(303, 170);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 21;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.site_5.BackColor = System.Drawing.Color.White;
+            this.site_5.Controls.Add(this.answer_three);
+            this.site_5.Controls.Add(this.answer_two);
+            this.site_5.Controls.Add(this.answer_one);
+            this.site_5.Controls.Add(this.Button_Fuel_Car);
+            this.site_5.Controls.Add(this.label4);
+            this.site_5.Location = new System.Drawing.Point(28, 45);
+            this.site_5.Name = "site_5";
+            this.site_5.Size = new System.Drawing.Size(740, 364);
+            this.site_5.TabIndex = 26;
+            // 
+            // answer_three
+            // 
+            this.answer_three.AutoSize = true;
+            this.answer_three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_three.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_three.ForeColor = System.Drawing.Color.Gray;
+            this.answer_three.Location = new System.Drawing.Point(289, 175);
+            this.answer_three.Name = "answer_three";
+            this.answer_three.Size = new System.Drawing.Size(185, 30);
+            this.answer_three.TabIndex = 25;
+            this.answer_three.TabStop = true;
+            this.answer_three.Text = "Электричество";
+            this.answer_three.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_three.UseVisualStyleBackColor = true;
+            // 
+            // answer_two
+            // 
+            this.answer_two.AutoSize = true;
+            this.answer_two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_two.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_two.ForeColor = System.Drawing.Color.Gray;
+            this.answer_two.Location = new System.Drawing.Point(289, 141);
+            this.answer_two.Name = "answer_two";
+            this.answer_two.Size = new System.Drawing.Size(106, 30);
+            this.answer_two.TabIndex = 23;
+            this.answer_two.TabStop = true;
+            this.answer_two.Text = "Дизель";
+            this.answer_two.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_two.UseVisualStyleBackColor = true;
+            // 
+            // answer_one
+            // 
+            this.answer_one.AutoSize = true;
+            this.answer_one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.answer_one.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.answer_one.ForeColor = System.Drawing.Color.Gray;
+            this.answer_one.Location = new System.Drawing.Point(289, 105);
+            this.answer_one.Name = "answer_one";
+            this.answer_one.Size = new System.Drawing.Size(105, 30);
+            this.answer_one.TabIndex = 21;
+            this.answer_one.TabStop = true;
+            this.answer_one.Text = "Бензин";
+            this.answer_one.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.answer_one.UseVisualStyleBackColor = true;
+            // 
+            // Button_Fuel_Car
+            // 
+            this.Button_Fuel_Car.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_Fuel_Car.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Fuel_Car.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Fuel_Car.FlatAppearance.BorderSize = 0;
+            this.Button_Fuel_Car.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Fuel_Car.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Fuel_Car.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_Fuel_Car.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_Fuel_Car.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_Fuel_Car.ForeColor = System.Drawing.Color.White;
+            this.Button_Fuel_Car.Location = new System.Drawing.Point(312, 215);
+            this.Button_Fuel_Car.Name = "Button_Fuel_Car";
+            this.Button_Fuel_Car.Size = new System.Drawing.Size(152, 74);
+            this.Button_Fuel_Car.TabIndex = 20;
+            this.Button_Fuel_Car.Text = "Принять";
+            this.Button_Fuel_Car.UseVisualStyleBackColor = false;
+            this.Button_Fuel_Car.Click += new System.EventHandler(this.Button_Fuel_Car_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label4.Location = new System.Drawing.Point(109, 58);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(555, 33);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Чем должен питаться ваш верный конь?";
+            // 
+            // site_6
+            // 
+            this.site_6.BackColor = System.Drawing.Color.White;
+            this.site_6.Controls.Add(this.Button_FrontWheel);
+            this.site_6.Controls.Add(this.Button_FullWheels);
+            this.site_6.Controls.Add(this.Button_RearWheel);
+            this.site_6.Controls.Add(this.label5);
+            this.site_6.Location = new System.Drawing.Point(26, 46);
+            this.site_6.Name = "site_6";
+            this.site_6.Size = new System.Drawing.Size(740, 364);
+            this.site_6.TabIndex = 22;
+            // 
+            // Button_FrontWheel
+            // 
+            this.Button_FrontWheel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_FrontWheel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_FrontWheel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FrontWheel.FlatAppearance.BorderSize = 0;
+            this.Button_FrontWheel.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FrontWheel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FrontWheel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FrontWheel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_FrontWheel.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_FrontWheel.ForeColor = System.Drawing.Color.White;
+            this.Button_FrontWheel.Location = new System.Drawing.Point(514, 193);
+            this.Button_FrontWheel.Name = "Button_FrontWheel";
+            this.Button_FrontWheel.Size = new System.Drawing.Size(157, 74);
+            this.Button_FrontWheel.TabIndex = 21;
+            this.Button_FrontWheel.Text = "Передние";
+            this.Button_FrontWheel.UseVisualStyleBackColor = false;
+            this.Button_FrontWheel.Click += new System.EventHandler(this.Button_FrontWheel_Click);
+            // 
+            // Button_FullWheels
+            // 
+            this.Button_FullWheels.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_FullWheels.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_FullWheels.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FullWheels.FlatAppearance.BorderSize = 0;
+            this.Button_FullWheels.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FullWheels.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FullWheels.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_FullWheels.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_FullWheels.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_FullWheels.ForeColor = System.Drawing.Color.White;
+            this.Button_FullWheels.Location = new System.Drawing.Point(278, 193);
+            this.Button_FullWheels.Name = "Button_FullWheels";
+            this.Button_FullWheels.Size = new System.Drawing.Size(152, 74);
+            this.Button_FullWheels.TabIndex = 20;
+            this.Button_FullWheels.Text = "Все";
+            this.Button_FullWheels.UseVisualStyleBackColor = false;
+            this.Button_FullWheels.Click += new System.EventHandler(this.Button_FullWheels_Click);
+            // 
+            // Button_RearWheel
+            // 
+            this.Button_RearWheel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.Button_RearWheel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_RearWheel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_RearWheel.FlatAppearance.BorderSize = 0;
+            this.Button_RearWheel.FlatAppearance.CheckedBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_RearWheel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_RearWheel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Button_RearWheel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button_RearWheel.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold);
+            this.Button_RearWheel.ForeColor = System.Drawing.Color.White;
+            this.Button_RearWheel.Location = new System.Drawing.Point(34, 193);
+            this.Button_RearWheel.Name = "Button_RearWheel";
+            this.Button_RearWheel.Size = new System.Drawing.Size(140, 74);
+            this.Button_RearWheel.TabIndex = 19;
+            this.Button_RearWheel.Text = "Задние";
+            this.Button_RearWheel.UseVisualStyleBackColor = false;
+            this.Button_RearWheel.Click += new System.EventHandler(this.Button_RearWheel_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label5.Location = new System.Drawing.Point(87, 105);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(558, 33);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Какие колеса должны везти вас вперёд?";
             // 
             // Test_Form
             // 
@@ -402,6 +630,8 @@
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Exite_Application);
             this.Controls.Add(this.Button_Exit);
+            this.Controls.Add(this.site_6);
+            this.Controls.Add(this.site_5);
             this.Controls.Add(this.site_4);
             this.Controls.Add(this.site_finish);
             this.Controls.Add(this.site_3);
@@ -425,6 +655,10 @@
             this.site_3.PerformLayout();
             this.site_4.ResumeLayout(false);
             this.site_4.PerformLayout();
+            this.site_5.ResumeLayout(false);
+            this.site_5.PerformLayout();
+            this.site_6.ResumeLayout(false);
+            this.site_6.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -453,8 +687,21 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox Input_Field_site_3;
         private System.Windows.Forms.Panel site_4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Button_Body_Car;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton answer_1;
+        private System.Windows.Forms.RadioButton answer_2;
+        private System.Windows.Forms.RadioButton answer_3;
+        private System.Windows.Forms.Panel site_5;
+        private System.Windows.Forms.RadioButton answer_three;
+        private System.Windows.Forms.RadioButton answer_two;
+        private System.Windows.Forms.RadioButton answer_one;
+        private System.Windows.Forms.Button Button_Fuel_Car;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel site_6;
+        private System.Windows.Forms.Button Button_FrontWheel;
+        private System.Windows.Forms.Button Button_FullWheels;
+        private System.Windows.Forms.Button Button_RearWheel;
+        private System.Windows.Forms.Label label5;
     }
 }

@@ -16,6 +16,9 @@ namespace Novice_Motorist.Test
         public int[] getter;
         string speed;
         string place;
+        string body;
+        string fuel;
+        string rearwheeldriver;
         readonly string[] imageCar = {
             "../../Image/1x/Test_Cars/1.jpg",
             "../../Image/1x/Test_Cars/2.jpg",
@@ -145,6 +148,9 @@ namespace Novice_Motorist.Test
             InitializeComponent();
             site_2.Visible = false;
             site_3.Visible = false;
+            site_4.Visible = false;
+            site_5.Visible = false;
+            site_6.Visible = false;
             site_finish.Visible = false;
 
         }
@@ -268,7 +274,62 @@ namespace Novice_Motorist.Test
                 this.place = "Много";
             }
             site_3.Visible = false;
+            site_4.Visible = true;
+        }
+
+        private void Button_Body_Car_Click(object sender, EventArgs e)
+        {
+            RadioButton[] arrayRadio = { answer_1, answer_2, answer_3 };
+            for (int i = 0; i < 3; i++)
+            {
+                if (arrayRadio[i].Checked)
+                {
+                    this.body = arrayRadio[i].Text;
+                }
+            }
+            site_4.Visible = false;
+            site_5.Visible = true;
+        }
+
+        private void Button_Fuel_Car_Click(object sender, EventArgs e)
+        {
+            RadioButton[] arrayRadio = { answer_one, answer_two, answer_three };
+            for (int i = 0; i < 3; i++)
+            {
+                if (arrayRadio[i].Checked)
+                {
+                    this.fuel = arrayRadio[i].Text;
+                }
+            }
+            site_5.Visible = false;
+            site_6.Visible = true;
+        }
+
+        private void Button_RearWheel_Click(object sender, EventArgs e)
+        {
+            this.rearwheeldriver = "Задний";
+            site_6.Visible = false;
             site_finish.Visible = true;
+            this.getter = GetArrayCars(speed,place,fuel,body, rearwheeldriver);
+            GetSelectedCars();
+        }
+
+        private void Button_FullWheels_Click(object sender, EventArgs e)
+        {
+            this.rearwheeldriver = "Полный";
+            site_6.Visible = false;
+            site_finish.Visible = true;
+            this.getter = GetArrayCars(speed, place, fuel, body, rearwheeldriver);
+            GetSelectedCars();
+        }
+
+        private void Button_FrontWheel_Click(object sender, EventArgs e)
+        {
+            this.rearwheeldriver = "Передний";
+            site_6.Visible = false;
+            site_finish.Visible = true;
+            this.getter = GetArrayCars(speed, place, fuel, body, rearwheeldriver);
+            GetSelectedCars();
         }
     }
 }
