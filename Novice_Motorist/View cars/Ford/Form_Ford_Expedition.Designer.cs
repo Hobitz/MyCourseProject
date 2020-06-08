@@ -1,6 +1,6 @@
 ﻿namespace Novice_Motorist.View_cars.Ford
 {
-    partial class Form_Ford_Focus
+    partial class Form_Ford_Expedition
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Focus));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Expedition));
             this.site_1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_sites_back = new System.Windows.Forms.Button();
@@ -66,9 +66,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Focus;
+            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Expedition;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -199);
+            this.pictureBox1.Location = new System.Drawing.Point(-40, -217);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 600);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -93,7 +93,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -113,7 +113,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
             // 
             // label3
             // 
@@ -176,11 +176,11 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(342, 1);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(317, 1);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(102, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(171, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "FOCUS";
+            this.Glava_2_Brand.Text = "EXPEDITION";
             // 
             // site_2
             // 
@@ -194,9 +194,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Focus_Interier;
+            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Expedition_Interier;
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, -108);
+            this.pictureBox2.Location = new System.Drawing.Point(-1, -85);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(800, 600);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -220,7 +220,7 @@
             this.label1.ForeColor = System.Drawing.Color.Gray;
             this.label1.Location = new System.Drawing.Point(17, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(707, 320);
+            this.label1.Size = new System.Drawing.Size(707, 343);
             this.label1.TabIndex = 19;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -240,14 +240,14 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(17, 21);
+            this.label2.Location = new System.Drawing.Point(17, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(707, 320);
+            this.label2.Size = new System.Drawing.Size(707, 343);
             this.label2.TabIndex = 19;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form_Ford_Focus
+            // Form_Cars_Expedition
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -266,11 +266,10 @@
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form_Ford_Focus";
+            this.Name = "Form_Cars_Expedition";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Ford_Focus_MouseDown);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Cars_Expedition_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

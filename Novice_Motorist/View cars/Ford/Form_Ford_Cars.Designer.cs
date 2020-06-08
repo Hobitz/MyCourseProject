@@ -296,6 +296,7 @@
             this.label12.Size = new System.Drawing.Size(255, 33);
             this.label12.TabIndex = 23;
             this.label12.Text = "TRANSIT CONNECT";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             this.label12.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -311,6 +312,7 @@
             this.label11.Size = new System.Drawing.Size(171, 33);
             this.label11.TabIndex = 22;
             this.label11.Text = "EXPEDITION";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             this.label11.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -326,6 +328,7 @@
             this.label10.Size = new System.Drawing.Size(142, 33);
             this.label10.TabIndex = 21;
             this.label10.Text = "MUSTANG";
+            this.label10.Click += new System.EventHandler(this.Label10_Click);
             this.label10.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -341,7 +344,7 @@
             this.label9.Size = new System.Drawing.Size(102, 33);
             this.label9.TabIndex = 20;
             this.label9.Text = "FOCUS";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label9.Click += new System.EventHandler(this.Label9_Click);
             this.label9.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
             this.label9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
             // 
@@ -376,6 +379,7 @@
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Ford_Cars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";

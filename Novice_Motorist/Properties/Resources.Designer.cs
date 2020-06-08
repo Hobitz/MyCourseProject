@@ -233,6 +233,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Expedition {
+            get {
+                object obj = ResourceManager.GetObject("Expedition", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Expedition_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Expedition_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Focus {
             get {
                 object obj = ResourceManager.GetObject("Focus", resourceCulture);
@@ -293,6 +313,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mustang {
+            get {
+                object obj = ResourceManager.GetObject("Mustang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mustang_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Mustang_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap novicedriver_black {
             get {
                 object obj = ResourceManager.GetObject("novicedriver_black", resourceCulture);
@@ -326,6 +366,26 @@ namespace Novice_Motorist.Properties {
         internal static System.Drawing.Bitmap picture_parking_device {
             get {
                 object obj = ResourceManager.GetObject("picture_parking_device", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transit_Connect {
+            get {
+                object obj = ResourceManager.GetObject("Transit_Connect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transit_Connect_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Transit_Connect_Interier", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

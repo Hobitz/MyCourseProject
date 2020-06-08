@@ -136,9 +136,51 @@ namespace Novice_Motorist.View_cars.Ford
             this.WndProc(ref m);
         }
 
-        private void label9_Click(object sender, EventArgs e)
+        private void Label9_Click(object sender, EventArgs e)
         {
             Form fm = new Form_Ford_Focus
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void Label10_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Ford_Mustang
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Ford_Expedition
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Ford_Transit_Connetc
             {
                 Left = this.Left,
                 Top = this.Top

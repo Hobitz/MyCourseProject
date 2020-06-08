@@ -110,6 +110,18 @@
     <Compile Include="View cars\Brand_Cars.Designer.cs">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Expedition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Expedition.Designer.cs">
+      <DependentUpon>Form_Ford_Expedition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Mustang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Mustang.Designer.cs">
+      <DependentUpon>Form_Ford_Mustang.cs</DependentUpon>
+    </Compile>
     <Compile Include="View cars\Ford\Form_Ford_Cars.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +133,12 @@
     </Compile>
     <Compile Include="View cars\Ford\Form_Ford_Focus.Designer.cs">
       <DependentUpon>Form_Ford_Focus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Transit_Connetc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Ford\Form_Ford_Transit_Connetc.Designer.cs">
+      <DependentUpon>Form_Ford_Transit_Connetc.cs</DependentUpon>
     </Compile>
     <Compile Include="View cars\Volkswagen\Form_Volkswagen_Arteon.cs">
       <SubType>Form</SubType>
@@ -184,11 +202,20 @@
     <EmbeddedResource Include="View cars\Brand_Cars.resx">
       <DependentUpon>Brand_Cars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Ford\Form_Ford_Expedition.resx">
+      <DependentUpon>Form_Ford_Expedition.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View cars\Ford\Form_Ford_Cars.resx">
       <DependentUpon>Form_Ford_Cars.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View cars\Ford\Form_Ford_Focus.resx">
       <DependentUpon>Form_Ford_Focus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Ford\Form_Ford_Mustang.resx">
+      <DependentUpon>Form_Ford_Mustang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Ford\Form_Ford_Transit_Connetc.resx">
+      <DependentUpon>Form_Ford_Transit_Connetc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Arteon.resx">
       <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
@@ -246,6 +273,12 @@
     <None Include="Image\1x\Arteon_Interier.jpg" />
     <None Include="Image\1x\Focus.jpg" />
     <None Include="Image\1x\Focus_Interier.jpg" />
+    <None Include="Image\1x\Mustang.jpg" />
+    <None Include="Image\1x\Mustang_Interier.jpg" />
+    <None Include="Image\1x\Expedition.jpg" />
+    <None Include="Image\1x\Expedition_Interier.jpg" />
+    <None Include="Image\1x\Transit_Connect.jpg" />
+    <None Include="Image\1x\Transit_Connect_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

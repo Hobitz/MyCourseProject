@@ -1,6 +1,6 @@
 ﻿namespace Novice_Motorist.View_cars.Ford
 {
-    partial class Form_Ford_Focus
+    partial class Form_Ford_Mustang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Focus));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Mustang));
             this.site_1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_sites_back = new System.Windows.Forms.Button();
@@ -44,6 +44,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.site_4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.site_5 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.site_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Hide)).BeginInit();
@@ -52,6 +54,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.site_3.SuspendLayout();
             this.site_4.SuspendLayout();
+            this.site_5.SuspendLayout();
             this.SuspendLayout();
             // 
             // site_1
@@ -65,14 +68,12 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Focus;
-            this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -199);
+            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Mustang;
+            this.pictureBox1.Location = new System.Drawing.Point(-22, -124);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 600);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button_sites_back
@@ -93,7 +94,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click_1);
             // 
             // button_sites_next
             // 
@@ -113,7 +114,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
             // 
             // label3
             // 
@@ -144,7 +145,7 @@
             this.Button_Hide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button_Hide.Image = global::Novice_Motorist.Properties.Resources.Button_Hide;
             this.Button_Hide.InitialImage = null;
-            this.Button_Hide.Location = new System.Drawing.Point(724, 9);
+            this.Button_Hide.Location = new System.Drawing.Point(722, 9);
             this.Button_Hide.Name = "Button_Hide";
             this.Button_Hide.Size = new System.Drawing.Size(35, 25);
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -159,7 +160,7 @@
             this.Exite_Application.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Exite_Application.Image = global::Novice_Motorist.Properties.Resources.Button_Back;
             this.Exite_Application.InitialImage = null;
-            this.Exite_Application.Location = new System.Drawing.Point(764, 9);
+            this.Exite_Application.Location = new System.Drawing.Point(762, 9);
             this.Exite_Application.Name = "Exite_Application";
             this.Exite_Application.Size = new System.Drawing.Size(25, 25);
             this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -176,41 +177,39 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(342, 1);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(336, 1);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(102, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(142, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "FOCUS";
+            this.Glava_2_Brand.Text = "MUSTANG";
             // 
             // site_2
             // 
             this.site_2.BackColor = System.Drawing.Color.White;
             this.site_2.Controls.Add(this.pictureBox2);
-            this.site_2.Location = new System.Drawing.Point(30, 46);
+            this.site_2.Location = new System.Drawing.Point(30, 44);
             this.site_2.Name = "site_2";
             this.site_2.Size = new System.Drawing.Size(740, 364);
-            this.site_2.TabIndex = 18;
+            this.site_2.TabIndex = 10;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Focus_Interier;
-            this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, -108);
+            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Mustang_Interier;
+            this.pictureBox2.Location = new System.Drawing.Point(-18, -92);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(800, 600);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 24;
+            this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
             // site_3
             // 
             this.site_3.BackColor = System.Drawing.Color.White;
             this.site_3.Controls.Add(this.label1);
-            this.site_3.Location = new System.Drawing.Point(30, 45);
+            this.site_3.Location = new System.Drawing.Point(30, 44);
             this.site_3.Name = "site_3";
             this.site_3.Size = new System.Drawing.Size(740, 364);
-            this.site_3.TabIndex = 25;
+            this.site_3.TabIndex = 11;
             // 
             // label1
             // 
@@ -218,10 +217,10 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(17, 21);
+            this.label1.Location = new System.Drawing.Point(8, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(707, 320);
-            this.label1.TabIndex = 19;
+            this.label1.Size = new System.Drawing.Size(724, 341);
+            this.label1.TabIndex = 18;
             this.label1.Text = resources.GetString("label1.Text");
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -229,10 +228,10 @@
             // 
             this.site_4.BackColor = System.Drawing.Color.White;
             this.site_4.Controls.Add(this.label2);
-            this.site_4.Location = new System.Drawing.Point(29, 45);
+            this.site_4.Location = new System.Drawing.Point(31, 42);
             this.site_4.Name = "site_4";
             this.site_4.Size = new System.Drawing.Size(740, 364);
-            this.site_4.TabIndex = 26;
+            this.site_4.TabIndex = 19;
             // 
             // label2
             // 
@@ -240,14 +239,36 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(17, 21);
+            this.label2.Location = new System.Drawing.Point(7, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(707, 320);
-            this.label2.TabIndex = 19;
+            this.label2.Size = new System.Drawing.Size(724, 341);
+            this.label2.TabIndex = 18;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form_Ford_Focus
+            // site_5
+            // 
+            this.site_5.BackColor = System.Drawing.Color.White;
+            this.site_5.Controls.Add(this.label5);
+            this.site_5.Location = new System.Drawing.Point(30, 45);
+            this.site_5.Name = "site_5";
+            this.site_5.Size = new System.Drawing.Size(740, 364);
+            this.site_5.TabIndex = 20;
+            // 
+            // label5
+            // 
+            this.label5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Montserrat", 13.5F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Gray;
+            this.label5.Location = new System.Drawing.Point(7, -1);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(724, 366);
+            this.label5.TabIndex = 18;
+            this.label5.Text = resources.GetString("label5.Text");
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Form_Ford_Mustang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -259,18 +280,19 @@
             this.Controls.Add(this.site_3);
             this.Controls.Add(this.site_2);
             this.Controls.Add(this.site_1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.site_5);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button_sites_next);
             this.Controls.Add(this.button_sites_back);
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form_Ford_Focus";
+            this.Name = "Form_Ford_Mustang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Ford_Focus_MouseDown);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Ford_Mustang_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -281,6 +303,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.site_3.ResumeLayout(false);
             this.site_4.ResumeLayout(false);
+            this.site_5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,12 +319,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label Glava_2_Brand;
-        private System.Windows.Forms.Panel site_2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel site_2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel site_3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel site_4;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel site_5;
+        private System.Windows.Forms.Label label5;
     }
 }

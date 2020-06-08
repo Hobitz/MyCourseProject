@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Novice_Motorist.View_cars.Ford
 {
-    public partial class Form_Ford_Focus : Form
+    public partial class Form_Ford_Expedition : Form
     {
         readonly Panel[] Sites = new Panel[4];
         int num = 1;
-        public Form_Ford_Focus()
+        public Form_Ford_Expedition()
         {
             InitializeComponent();
             Sites[0] = site_1;
@@ -48,34 +48,7 @@ namespace Novice_Motorist.View_cars.Ford
             this.Close();
         }
 
-        private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
-        {
-            Exite_Application.Image = Properties.Resources.Button_Back_Move;
-        }
-
-        private void Exite_Application_MouseLeave(object sender, EventArgs e)
-        {
-            Exite_Application.Image = Properties.Resources.Button_Back;
-        }
-
-        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
-        {
-            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
-        }
-
-        private void Button_Hide_MouseLeave(object sender, EventArgs e)
-        {
-            Button_Hide.Image = Properties.Resources.Button_Hide;
-        }
-
-        private void Form_Ford_Focus_MouseDown(object sender, MouseEventArgs e)
-        {
-            base.Capture = false;
-            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
-            this.WndProc(ref m);
-        }
-
-        private void Button_sites_next_Click(object sender, EventArgs e)
+        private void button_sites_next_Click(object sender, EventArgs e)
         {
             if (num == Sites.Length)
             {
@@ -94,7 +67,7 @@ namespace Novice_Motorist.View_cars.Ford
             }
         }
 
-        private void Button_sites_back_Click(object sender, EventArgs e)
+        private void button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -111,6 +84,33 @@ namespace Novice_Motorist.View_cars.Ford
                     break;
                 }
             }
+        }
+
+        private void Exite_Application_MouseLeave(object sender, EventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back;
+        }
+
+        private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+        }
+
+        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
+        }
+
+        private void Button_Hide_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide;
+        }
+
+        private void Form_Cars_Expedition_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
         }
     }
 }

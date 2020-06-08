@@ -227,7 +227,7 @@ namespace Novice_Motorist.Test
         {
             this.speed = "Медленная";
             site_2.Visible = false;
-            site_finish.Visible = true;
+            site_3.Visible = true;
 
         }
 
