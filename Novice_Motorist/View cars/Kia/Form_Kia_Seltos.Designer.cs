@@ -1,7 +1,8 @@
-﻿namespace Novice_Motorist.View_cars.Ford
+﻿namespace Novice_Motorist.View_cars.Kia
 {
-    partial class Form_Ford_Expedition
+    partial class Form_Kia_Seltos
     {
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -28,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Expedition));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Kia_Seltos));
             this.site_1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_sites_back = new System.Windows.Forms.Button();
@@ -66,9 +67,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Expedition;
+            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.Seltos;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(-40, -217);
+            this.pictureBox1.Location = new System.Drawing.Point(-40, -96);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 600);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -93,7 +94,6 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -113,7 +113,6 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -150,9 +149,6 @@
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Hide.TabIndex = 7;
             this.Button_Hide.TabStop = false;
-            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
-            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
-            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
             // Exite_Application
             // 
@@ -176,11 +172,11 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(317, 1);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(350, 1);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(171, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(109, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "EXPEDITION";
+            this.Glava_2_Brand.Text = "SELTOS";
             // 
             // site_2
             // 
@@ -194,9 +190,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Expedition_Interier;
+            this.pictureBox2.Image = global::Novice_Motorist.Properties.Resources.Seltos_Interier;
             this.pictureBox2.InitialImage = null;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, -85);
+            this.pictureBox2.Location = new System.Drawing.Point(-41, -77);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(800, 600);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -247,7 +243,7 @@
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form_Cars_Expedition
+            // Form_Kia_Seltos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -255,10 +251,10 @@
             this.BackgroundImage = global::Novice_Motorist.Properties.Resources.bg_image;
             this.ClientSize = new System.Drawing.Size(800, 457);
             this.Controls.Add(this.Glava_2_Brand);
+            this.Controls.Add(this.site_1);
             this.Controls.Add(this.site_4);
             this.Controls.Add(this.site_3);
             this.Controls.Add(this.site_2);
-            this.Controls.Add(this.site_1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button_sites_next);
@@ -266,10 +262,10 @@
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form_Cars_Expedition";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Form_Kia_Seltos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Cars_Expedition_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

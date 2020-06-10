@@ -93,7 +93,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -113,7 +113,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -270,6 +270,7 @@
             this.Name = "Form_Ford_Transit_Connetc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Ford_Transit_Connetc_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

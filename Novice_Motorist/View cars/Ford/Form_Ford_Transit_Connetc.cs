@@ -47,7 +47,7 @@ namespace Novice_Motorist.View_cars.Ford
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button_sites_back_Click(object sender, EventArgs e)
+        private void Button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -66,7 +66,7 @@ namespace Novice_Motorist.View_cars.Ford
             }
         }
 
-        private void button_sites_next_Click(object sender, EventArgs e)
+        private void Button_sites_next_Click(object sender, EventArgs e)
         {
             if (num == Sites.Length)
             {
@@ -103,6 +103,13 @@ namespace Novice_Motorist.View_cars.Ford
         private void Button_Hide_MouseLeave(object sender, EventArgs e)
         {
             Button_Hide.Image = Properties.Resources.Button_Hide;
+        }
+
+        private void Form_Ford_Transit_Connetc_MouseDown(object sender, MouseEventArgs e)
+        {
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
         }
     }
 }

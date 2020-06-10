@@ -1,6 +1,6 @@
-﻿namespace Novice_Motorist.View_cars.Ford
+﻿namespace Novice_Motorist.View_cars.Kia
 {
-    partial class Form_Ford_Cars
+    partial class Form_Kia_Cars
     {
 
         /// <summary>
@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Cars));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Kia_Cars));
             this.site_1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -95,9 +95,9 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
             this.label6.Location = new System.Drawing.Point(391, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(346, 30);
+            this.label6.Size = new System.Drawing.Size(297, 30);
             this.label6.TabIndex = 20;
-            this.label6.Text = "Американские автомобили";
+            this.label6.Text = "Корейские автомобили";
             // 
             // label5
             // 
@@ -108,9 +108,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
             this.label5.Location = new System.Drawing.Point(384, 13);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(88, 33);
+            this.label5.Size = new System.Drawing.Size(71, 33);
             this.label5.TabIndex = 18;
-            this.label5.Text = "Форд";
+            this.label5.Text = "КИА";
             // 
             // label2
             // 
@@ -140,7 +140,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.brand_ford;
+            this.pictureBox1.Image = global::Novice_Motorist.Properties.Resources.brand_kia;
             this.pictureBox1.Location = new System.Drawing.Point(4, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(128, 85);
@@ -166,7 +166,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
+            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -186,7 +186,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
+            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
             // 
             // label3
             // 
@@ -265,11 +265,11 @@
             this.Glava_2_Brand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Glava_2_Brand.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Glava_2_Brand.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.Glava_2_Brand.Location = new System.Drawing.Point(342, 1);
+            this.Glava_2_Brand.Location = new System.Drawing.Point(368, 1);
             this.Glava_2_Brand.Name = "Glava_2_Brand";
-            this.Glava_2_Brand.Size = new System.Drawing.Size(73, 33);
+            this.Glava_2_Brand.Size = new System.Drawing.Size(59, 33);
             this.Glava_2_Brand.TabIndex = 17;
-            this.Glava_2_Brand.Text = "Ford";
+            this.Glava_2_Brand.Text = "KIA";
             // 
             // site_2
             // 
@@ -293,12 +293,12 @@
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.label12.Location = new System.Drawing.Point(215, 274);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(255, 33);
+            this.label12.Size = new System.Drawing.Size(125, 33);
             this.label12.TabIndex = 23;
-            this.label12.Text = "TRANSIT CONNECT";
-            this.label12.Click += new System.EventHandler(this.Label12_Click);
-            this.label12.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
-            this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
+            this.label12.Text = "STINGER";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            this.label12.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
+            this.label12.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
             // 
             // label11
             // 
@@ -309,12 +309,12 @@
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.label11.Location = new System.Drawing.Point(215, 213);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(171, 33);
+            this.label11.Size = new System.Drawing.Size(109, 33);
             this.label11.TabIndex = 22;
-            this.label11.Text = "EXPEDITION";
-            this.label11.Click += new System.EventHandler(this.Label11_Click);
-            this.label11.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
-            this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
+            this.label11.Text = "SELTOS";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.label11.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
+            this.label11.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
             // 
             // label10
             // 
@@ -325,12 +325,12 @@
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.label10.Location = new System.Drawing.Point(215, 149);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 33);
+            this.label10.Size = new System.Drawing.Size(131, 33);
             this.label10.TabIndex = 21;
-            this.label10.Text = "MUSTANG";
-            this.label10.Click += new System.EventHandler(this.Label10_Click);
-            this.label10.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
-            this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
+            this.label10.Text = "PICANTO";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.label10.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
+            this.label10.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
             // 
             // label9
             // 
@@ -341,12 +341,12 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(149)))), ((int)(((byte)(149)))));
             this.label9.Location = new System.Drawing.Point(215, 86);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(102, 33);
+            this.label9.Size = new System.Drawing.Size(116, 33);
             this.label9.TabIndex = 20;
-            this.label9.Text = "FOCUS";
-            this.label9.Click += new System.EventHandler(this.Label9_Click);
-            this.label9.MouseLeave += new System.EventHandler(this.Label9_MouseLeave);
-            this.label9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label9_MouseMove);
+            this.label9.Text = "OPTIMA";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.label9.MouseLeave += new System.EventHandler(this.label9_MouseLeave);
+            this.label9.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label9_MouseMove);
             // 
             // label8
             // 
@@ -361,7 +361,7 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Модели:";
             // 
-            // Form_Ford_Cars
+            // Form_Kia_Cars
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -380,10 +380,10 @@
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form_Ford_Cars";
+            this.Name = "Form_Kia_Cars";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Ford_Cars_MouseDown);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Kia_Cars_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

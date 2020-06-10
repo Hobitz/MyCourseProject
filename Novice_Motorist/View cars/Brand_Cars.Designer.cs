@@ -174,6 +174,7 @@
             this.label2.Size = new System.Drawing.Size(55, 33);
             this.label2.TabIndex = 21;
             this.label2.Text = "Kia";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseLeave += new System.EventHandler(this.Label_MouseLeave);
             this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Label_MouseMove);
             // 

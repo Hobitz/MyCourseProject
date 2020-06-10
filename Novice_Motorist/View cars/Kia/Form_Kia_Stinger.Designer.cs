@@ -1,7 +1,8 @@
-﻿namespace Novice_Motorist.View_cars.Ford
+﻿namespace Novice_Motorist.View_cars.Kia
 {
-    partial class Form_Ford_Expedition
+    partial class Form_Kia_Stinger
     {
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -28,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ford_Expedition));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Kia_Stinger));
             this.site_1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_sites_back = new System.Windows.Forms.Button();
@@ -93,7 +94,6 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
-            this.button_sites_back.Click += new System.EventHandler(this.Button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -113,7 +113,6 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
-            this.button_sites_next.Click += new System.EventHandler(this.Button_sites_next_Click);
             // 
             // label3
             // 
@@ -150,9 +149,6 @@
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Hide.TabIndex = 7;
             this.Button_Hide.TabStop = false;
-            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
-            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
-            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
             // Exite_Application
             // 
@@ -165,9 +161,6 @@
             this.Exite_Application.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Exite_Application.TabIndex = 6;
             this.Exite_Application.TabStop = false;
-            this.Exite_Application.Click += new System.EventHandler(this.Exite_Application_Click);
-            this.Exite_Application.MouseLeave += new System.EventHandler(this.Exite_Application_MouseLeave);
-            this.Exite_Application.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Exite_Application_MouseMove);
             // 
             // Glava_2_Brand
             // 
@@ -269,7 +262,6 @@
             this.Name = "Form_Cars_Expedition";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form_Cars_Expedition_MouseDown);
             this.site_1.ResumeLayout(false);
             this.site_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

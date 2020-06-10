@@ -140,6 +140,36 @@
     <Compile Include="View cars\Ford\Form_Ford_Transit_Connetc.Designer.cs">
       <DependentUpon>Form_Ford_Transit_Connetc.cs</DependentUpon>
     </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Cars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Cars.Designer.cs">
+      <DependentUpon>Form_Kia_Cars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Optima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Optima.Designer.cs">
+      <DependentUpon>Form_Kia_Optima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Picanto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Picanto.Designer.cs">
+      <DependentUpon>Form_Kia_Picanto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Seltos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Seltos.Designer.cs">
+      <DependentUpon>Form_Kia_Seltos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Stinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View cars\Kia\Form_Kia_Stinger.Designer.cs">
+      <DependentUpon>Form_Kia_Stinger.cs</DependentUpon>
+    </Compile>
     <Compile Include="View cars\Volkswagen\Form_Volkswagen_Arteon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -217,6 +247,18 @@
     <EmbeddedResource Include="View cars\Ford\Form_Ford_Transit_Connetc.resx">
       <DependentUpon>Form_Ford_Transit_Connetc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Kia\Form_Kia_Cars.resx">
+      <DependentUpon>Form_Kia_Cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Kia\Form_Kia_Optima.resx">
+      <DependentUpon>Form_Kia_Optima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Kia\Form_Kia_Picanto.resx">
+      <DependentUpon>Form_Kia_Picanto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Kia\Form_Kia_Seltos.resx">
+      <DependentUpon>Form_Kia_Seltos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Arteon.resx">
       <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
     </EmbeddedResource>
@@ -279,6 +321,12 @@
     <None Include="Image\1x\Expedition_Interier.jpg" />
     <None Include="Image\1x\Transit_Connect.jpg" />
     <None Include="Image\1x\Transit_Connect_Interier.jpg" />
+    <None Include="Image\1x\Optima.jpg" />
+    <None Include="Image\1x\Optima_Interier.jpg" />
+    <None Include="Image\1x\Picanto.jpg" />
+    <None Include="Image\1x\Picanto_Interier.jpg" />
+    <None Include="Image\1x\Seltos.jpg" />
+    <None Include="Image\1x\Seltos_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

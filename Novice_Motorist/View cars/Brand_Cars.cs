@@ -1,4 +1,5 @@
 ﻿using Novice_Motorist.View_cars.Ford;
+using Novice_Motorist.View_cars.Kia;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -108,6 +109,20 @@ namespace Novice_Motorist.View_cars
         private void Label4_Click(object sender, EventArgs e)
         {
             Form fm = new Form_Ford_Cars
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.StartPosition = FormStartPosition.Manual;
+            fm.Left = this.Left;
+            fm.Top = this.Top;
+            fm.Show();
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form fm = new Form_Kia_Cars
             {
                 Left = this.Left,
                 Top = this.Top

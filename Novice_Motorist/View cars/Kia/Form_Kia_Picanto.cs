@@ -8,20 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Novice_Motorist.View_cars.Ford
+namespace Novice_Motorist.View_cars.Kia
 {
-    public partial class Form_Ford_Expedition : Form
+    public partial class Form_Kia_Picanto : Form
     {
         readonly Panel[] Sites = new Panel[4];
         int num = 1;
-        public Form_Ford_Expedition()
+        public Form_Kia_Picanto()
         {
             InitializeComponent();
             Sites[0] = site_1;
             Sites[1] = site_2;
             Sites[2] = site_3;
             Sites[3] = site_4;
-
             Sites[1].Visible = false;
             Sites[2].Visible = false;
             Sites[3].Visible = false;
@@ -29,14 +28,9 @@ namespace Novice_Motorist.View_cars.Ford
             label4.Text = "/ " + Sites.Length.ToString();
         }
 
-        private void Button_Hide_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
         private void Exite_Application_Click(object sender, EventArgs e)
         {
-            Form fm = new Form_Ford_Cars
+            Form fm = new Form_Kia_Cars
             {
                 Left = this.Left,
                 Top = this.Top
@@ -48,26 +42,32 @@ namespace Novice_Motorist.View_cars.Ford
             this.Close();
         }
 
-        private void Button_sites_next_Click(object sender, EventArgs e)
+        private void Button_Hide_Click(object sender, EventArgs e)
         {
-            if (num == Sites.Length)
-            {
-                return;
-            }
-            for (int i = 0; i < Sites.Length; i++)
-            {
-                if (Sites[i].Visible == true)
-                {
-                    Sites[i].Visible = false;
-                    Sites[i + 1].Visible = true;
-                    num += 1;
-                    label3.Text = num.ToString();
-                    break;
-                }
-            }
+            this.WindowState = FormWindowState.Minimized;
         }
 
-        private void Button_sites_back_Click(object sender, EventArgs e)
+        private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+        }
+
+        private void Exite_Application_MouseLeave(object sender, EventArgs e)
+        {
+            Exite_Application.Image = Properties.Resources.Button_Back;
+        }
+
+        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
+        }
+
+        private void Button_Hide_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Hide.Image = Properties.Resources.Button_Hide;
+        }
+
+        private void button_sites_back_Click(object sender, EventArgs e)
         {
             if (num == 1)
             {
@@ -86,27 +86,31 @@ namespace Novice_Motorist.View_cars.Ford
             }
         }
 
-        private void Exite_Application_MouseLeave(object sender, EventArgs e)
+        private void button_sites_next_Click(object sender, EventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back;
+            if (num == Sites.Length)
+            {
+                return;
+            }
+            for (int i = 0; i < Sites.Length; i++)
+            {
+                if (Sites[i].Visible == true)
+                {
+                    Sites[i].Visible = false;
+                    Sites[i + 1].Visible = true;
+                    num += 1;
+                    label3.Text = num.ToString();
+                    break;
+                }
+            }
         }
 
-        private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
+        private void label3_MouseDown(object sender, MouseEventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+
         }
 
-        private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
-        {
-            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
-        }
-
-        private void Button_Hide_MouseLeave(object sender, EventArgs e)
-        {
-            Button_Hide.Image = Properties.Resources.Button_Hide;
-        }
-
-        private void Form_Cars_Expedition_MouseDown(object sender, MouseEventArgs e)
+        private void Form_Kia_Picanto_MouseDown(object sender, MouseEventArgs e)
         {
             base.Capture = false;
             Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
