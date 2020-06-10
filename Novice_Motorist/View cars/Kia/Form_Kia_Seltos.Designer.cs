@@ -94,6 +94,7 @@
             this.button_sites_back.TabIndex = 10;
             this.button_sites_back.Text = "Назад";
             this.button_sites_back.UseVisualStyleBackColor = false;
+            this.button_sites_back.Click += new System.EventHandler(this.button_sites_back_Click);
             // 
             // button_sites_next
             // 
@@ -113,6 +114,7 @@
             this.button_sites_next.TabIndex = 11;
             this.button_sites_next.Text = "Вперёд";
             this.button_sites_next.UseVisualStyleBackColor = false;
+            this.button_sites_next.Click += new System.EventHandler(this.button_sites_next_Click);
             // 
             // label3
             // 
@@ -149,6 +151,9 @@
             this.Button_Hide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.Button_Hide.TabIndex = 7;
             this.Button_Hide.TabStop = false;
+            this.Button_Hide.Click += new System.EventHandler(this.Button_Hide_Click);
+            this.Button_Hide.MouseLeave += new System.EventHandler(this.Button_Hide_MouseLeave);
+            this.Button_Hide.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Button_Hide_MouseMove);
             // 
             // Exite_Application
             // 

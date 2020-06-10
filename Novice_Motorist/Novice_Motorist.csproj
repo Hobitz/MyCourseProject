@@ -259,6 +259,9 @@
     <EmbeddedResource Include="View cars\Kia\Form_Kia_Seltos.resx">
       <DependentUpon>Form_Kia_Seltos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View cars\Kia\Form_Kia_Stinger.resx">
+      <DependentUpon>Form_Kia_Stinger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View cars\Volkswagen\Form_Volkswagen_Arteon.resx">
       <DependentUpon>Form_Volkswagen_Arteon.cs</DependentUpon>
     </EmbeddedResource>
@@ -327,6 +330,8 @@
     <None Include="Image\1x\Picanto_Interier.jpg" />
     <None Include="Image\1x\Seltos.jpg" />
     <None Include="Image\1x\Seltos_Interier.jpg" />
+    <None Include="Image\1x\Stinger.jpg" />
+    <None Include="Image\1x\Stinger_Interier.jpg" />
     <Content Include="logopng.ico" />
     <None Include="Image\1x\Button_Hide.png" />
     <None Include="Image\1x\Button_Exite.png" />

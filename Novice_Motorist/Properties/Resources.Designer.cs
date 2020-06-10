@@ -433,6 +433,26 @@ namespace Novice_Motorist.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Stinger {
+            get {
+                object obj = ResourceManager.GetObject("Stinger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stinger_Interier {
+            get {
+                object obj = ResourceManager.GetObject("Stinger_Interier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Transit_Connect {
             get {
                 object obj = ResourceManager.GetObject("Transit_Connect", resourceCulture);
