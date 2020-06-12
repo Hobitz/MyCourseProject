@@ -98,6 +98,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recommendations\Recommendation_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recommendations\Recommendation_Form.Designer.cs">
+      <DependentUpon>Recommendation_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Test\Test_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,6 +231,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recommendations\Recommendation_Form.resx">
+      <DependentUpon>Recommendation_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test\Test_Form.resx">
       <DependentUpon>Test_Form.cs</DependentUpon>

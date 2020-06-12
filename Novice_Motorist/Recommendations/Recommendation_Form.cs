@@ -8,29 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Novice_Motorist.View_cars.Kia
+namespace Novice_Motorist.Recommendations
 {
-    public partial class Form_Kia_Picanto : Form
+    public partial class Recommendation_Form : Form
     {
-        readonly Panel[] Sites = new Panel[4];
+        readonly Panel[] Sites = new Panel[6];
         int num = 1;
-        public Form_Kia_Picanto()
+        public Recommendation_Form()
         {
             InitializeComponent();
             Sites[0] = site_1;
             Sites[1] = site_2;
             Sites[2] = site_3;
             Sites[3] = site_4;
+            Sites[4] = site_5;
+            Sites[5] = site_6;
             Sites[1].Visible = false;
             Sites[2].Visible = false;
             Sites[3].Visible = false;
+            Sites[4].Visible = false;
+            Sites[5].Visible = false;
             label3.Text = "1";
             label4.Text = "/ " + Sites.Length.ToString();
         }
 
         private void Exite_Application_Click(object sender, EventArgs e)
         {
-            Form fm = new Form_Kia_Cars
+            Form fm = new Form_Main
             {
                 Left = this.Left,
                 Top = this.Top
@@ -42,28 +46,31 @@ namespace Novice_Motorist.View_cars.Kia
             this.Close();
         }
 
-        private void Button_Hide_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
         private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Hide_Move;
+            Exite_Application.Image = Properties.Resources.Button_Back_Move;
         }
 
         private void Exite_Application_MouseLeave(object sender, EventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Hide;
+            Exite_Application.Image = Properties.Resources.Button_Back;
+        }
+
+        private void Button_Hide_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+
         }
 
         private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
         {
+
             Button_Hide.Image = Properties.Resources.Button_Hide_Move;
         }
 
         private void Button_Hide_MouseLeave(object sender, EventArgs e)
         {
+
             Button_Hide.Image = Properties.Resources.Button_Hide;
         }
 
@@ -105,13 +112,9 @@ namespace Novice_Motorist.View_cars.Kia
             }
         }
 
-        private void label3_MouseDown(object sender, MouseEventArgs e)
+        private void Recommendation_Form_MouseDown(object sender, MouseEventArgs e)
         {
 
-        }
-
-        private void Form_Kia_Picanto_MouseDown(object sender, MouseEventArgs e)
-        {
             base.Capture = false;
             Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
             this.WndProc(ref m);

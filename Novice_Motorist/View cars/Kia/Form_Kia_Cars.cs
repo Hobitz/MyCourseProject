@@ -115,12 +115,14 @@ namespace Novice_Motorist.View_cars.Kia
 
         private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
         {
-            Button_Exit.Image = Properties.Resources.Button_Exite_Move;
+
+            Button_Hide.Image = Properties.Resources.Button_Hide_Move;
         }
 
         private void Button_Hide_MouseLeave(object sender, EventArgs e)
         {
-            Button_Exit.Image = Properties.Resources.Button_Exite;
+
+            Button_Hide.Image = Properties.Resources.Button_Hide;
         }
 
         private void label9_Click(object sender, EventArgs e)

@@ -76,8 +76,9 @@
             this.Life_Hacks_Button.Name = "Life_Hacks_Button";
             this.Life_Hacks_Button.Size = new System.Drawing.Size(201, 78);
             this.Life_Hacks_Button.TabIndex = 1;
-            this.Life_Hacks_Button.Text = "Лайфхаки";
+            this.Life_Hacks_Button.Text = "Советы";
             this.Life_Hacks_Button.UseVisualStyleBackColor = false;
+            this.Life_Hacks_Button.Click += new System.EventHandler(this.Life_Hacks_Button_Click);
             // 
             // Express_Button
             // 

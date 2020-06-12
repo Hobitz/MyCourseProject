@@ -24,34 +24,45 @@ namespace Novice_Motorist.Test
             "../../Image/1x/Test_Cars/2.jpg",
             "../../Image/1x/Test_Cars/3.jpg",
             "../../Image/1x/Test_Cars/4.jpg",
-            "../../Image/1x/Test_Cars/5.jpg"
+            "../../Image/1x/Test_Cars/5.jpg",
+            "../../Image/1x/Test_Cars/6.jpg",
+            "../../Image/1x/Test_Cars/7.jpg"
         };
         readonly string[] brandCar = {
             "BMW",
             "Volkswagen",
             "Renault",
             "Mersedes-Benz",
-            "Audi" };
+            "Audi",
+            "KIA",
+            "Lada"
+        };
         readonly string[] modelCar = {
             "BMW M6 GRAN COUPE",
             "GOLF ALLTRACK",
             "RENAULT EZ-ULTIMO",
             "GLB",
-            "E-TRON"
+            "E-TRON",
+            "Stinger",
+            "2104"
         };
         readonly string[] speedCar = {
             "Быстрая",
             "Средняя",
             "Медленная",
             "Средняя",
-            "Средняя"
+            "Средняя",
+            "Быстрая",
+            "Медленная"
         };
         readonly string[] placeCar = {
             "Мало",
             "Много",
             "Среднее",
             "Среднее",
-            "Среднее"
+            "Среднее",
+             "Мало",
+             "Много"
         };
         readonly string[] fuelCar =
         {
@@ -59,7 +70,9 @@ namespace Novice_Motorist.Test
             "Дизель",
             "Электричество",
             "Бензин",
-            "Электричество"
+            "Электричество",
+            "Ьензин",
+            "Дизель"
         };
         readonly string[] bodyCar =
         {
@@ -67,7 +80,9 @@ namespace Novice_Motorist.Test
             "Универсал",
             "Универсал",
             "Внедорожник",
-            "Внедорожник"
+            "Внедорожник",
+            "Седан",
+            "Универсал"
         };
         readonly string[] rearWheelDriveCar =
         {
@@ -75,7 +90,9 @@ namespace Novice_Motorist.Test
             "Полный",
             "Передний",
             "Полный",
-            "Полный"
+            "Полный",
+            "Задний",
+            "Задний"
         };
 
         public void GetSelectedCars()

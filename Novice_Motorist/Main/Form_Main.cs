@@ -1,4 +1,5 @@
-﻿using Novice_Motorist.Test;
+﻿using Novice_Motorist.Recommendations;
+using Novice_Motorist.Test;
 using Novice_Motorist.View_cars;
 using System;
 using System.Collections.Generic;
@@ -91,6 +92,17 @@ namespace Novice_Motorist
         private void Express_Button_Click(object sender, EventArgs e)
         {
             Form fm = new Test_Form
+            {
+                Left = this.Left,
+                Top = this.Top
+            };
+            fm.Show();
+            this.Hide();
+        }
+
+        private void Life_Hacks_Button_Click(object sender, EventArgs e)
+        {
+            Form fm = new Recommendation_Form
             {
                 Left = this.Left,
                 Top = this.Top

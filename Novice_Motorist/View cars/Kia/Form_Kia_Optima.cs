@@ -51,12 +51,12 @@ namespace Novice_Motorist.View_cars.Kia
 
         private void Exite_Application_MouseMove(object sender, MouseEventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back_Move;
+            Exite_Application.Image = Properties.Resources.Button_Hide_Move;
         }
 
         private void Exite_Application_MouseLeave(object sender, EventArgs e)
         {
-            Exite_Application.Image = Properties.Resources.Button_Back;
+            Exite_Application.Image = Properties.Resources.Button_Hide;
         }
 
         private void Button_Hide_MouseMove(object sender, MouseEventArgs e)
