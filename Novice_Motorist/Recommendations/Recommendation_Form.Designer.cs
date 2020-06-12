@@ -39,14 +39,14 @@
             this.Exite_Application = new System.Windows.Forms.PictureBox();
             this.Glava_2_Brand = new System.Windows.Forms.Label();
             this.site_2 = new System.Windows.Forms.Panel();
-            this.site_3 = new System.Windows.Forms.Panel();
-            this.site_4 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.site_3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.site_4 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.site_5 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -202,26 +202,6 @@
             this.site_2.Size = new System.Drawing.Size(740, 364);
             this.site_2.TabIndex = 18;
             // 
-            // site_3
-            // 
-            this.site_3.BackColor = System.Drawing.Color.White;
-            this.site_3.Controls.Add(this.label9);
-            this.site_3.Controls.Add(this.label8);
-            this.site_3.Location = new System.Drawing.Point(30, 45);
-            this.site_3.Name = "site_3";
-            this.site_3.Size = new System.Drawing.Size(740, 364);
-            this.site_3.TabIndex = 25;
-            // 
-            // site_4
-            // 
-            this.site_4.BackColor = System.Drawing.Color.White;
-            this.site_4.Controls.Add(this.label2);
-            this.site_4.Controls.Add(this.label1);
-            this.site_4.Location = new System.Drawing.Point(29, 45);
-            this.site_4.Name = "site_4";
-            this.site_4.Size = new System.Drawing.Size(740, 364);
-            this.site_4.TabIndex = 26;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -248,18 +228,15 @@
             this.label7.Text = resources.GetString("label7.Text");
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // site_3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label8.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
-            this.label8.Location = new System.Drawing.Point(244, 42);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(286, 33);
-            this.label8.TabIndex = 28;
-            this.label8.Text = "Защита от коррозии";
+            this.site_3.BackColor = System.Drawing.Color.White;
+            this.site_3.Controls.Add(this.label9);
+            this.site_3.Controls.Add(this.label8);
+            this.site_3.Location = new System.Drawing.Point(30, 45);
+            this.site_3.Name = "site_3";
+            this.site_3.Size = new System.Drawing.Size(740, 364);
+            this.site_3.TabIndex = 25;
             // 
             // label9
             // 
@@ -274,18 +251,28 @@
             this.label9.Text = resources.GetString("label9.Text");
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // label8
             // 
-            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(24, 75);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(692, 214);
-            this.label1.TabIndex = 30;
-            this.label1.Text = resources.GetString("label1.Text");
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label8.AutoSize = true;
+            this.label8.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label8.Font = new System.Drawing.Font("Montserrat", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(96)))), ((int)(((byte)(186)))));
+            this.label8.Location = new System.Drawing.Point(244, 42);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(286, 33);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "Защита от коррозии";
+            // 
+            // site_4
+            // 
+            this.site_4.BackColor = System.Drawing.Color.White;
+            this.site_4.Controls.Add(this.label2);
+            this.site_4.Controls.Add(this.label1);
+            this.site_4.Location = new System.Drawing.Point(29, 45);
+            this.site_4.Name = "site_4";
+            this.site_4.Size = new System.Drawing.Size(740, 364);
+            this.site_4.TabIndex = 26;
             // 
             // label2
             // 
@@ -299,6 +286,19 @@
             this.label2.Size = new System.Drawing.Size(330, 33);
             this.label2.TabIndex = 31;
             this.label2.Text = "Аварийные аксессуары";
+            // 
+            // label1
+            // 
+            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Montserrat", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(24, 75);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(692, 214);
+            this.label1.TabIndex = 30;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // site_5
             // 
@@ -393,6 +393,7 @@
             this.Controls.Add(this.Button_Hide);
             this.Controls.Add(this.Exite_Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Recommendation_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form1";
