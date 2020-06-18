@@ -314,7 +314,7 @@
             // 
             this.Input_Field_site_3.Font = new System.Drawing.Font("Montserrat", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Input_Field_site_3.Location = new System.Drawing.Point(303, 176);
-            this.Input_Field_site_3.MaxLength = 2;
+            this.Input_Field_site_3.MaxLength = 1;
             this.Input_Field_site_3.Name = "Input_Field_site_3";
             this.Input_Field_site_3.Size = new System.Drawing.Size(100, 34);
             this.Input_Field_site_3.TabIndex = 21;
